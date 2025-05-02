@@ -1,0 +1,9 @@
+# Ignore Python compiled files
+**/*.pyc
+**/__pycache__/
+
+# Ignore specific folders
+Scripts/
+Lib/
+Include/
+*venv/
