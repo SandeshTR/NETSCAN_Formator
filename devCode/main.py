@@ -1,20 +1,23 @@
 import os
-import logging
+# import logging
 import configparser
 import shutil
 from pathlib import Path
 from datetime import datetime
-from devCode import extract_input
+import extract_input
+from logs.logs_handler import get_logger
+
+logger = get_logger(__name__)
 
 
 def delete_all_files(folders):
     '''Delete all files in the specified folders.'''
     for folder in folders:
-        logging.info(f'Processing folder: {folder}')
+        logger.info(f'Processing folder: {folder}')
         
         # Check if folder exists
         if not os.path.exists(folder):
-            logging.warning(f"Folder does not exist: {folder}")
+            logger.warning(f"Folder does not exist: {folder}")
             continue
             
         for filename in os.listdir(folder):
@@ -24,11 +27,11 @@ def delete_all_files(folders):
             if os.path.isfile(file_path):
                 try: 
                     os.remove(file_path)
-                    logging.info(f"Deleted file: {file_path}")
+                    logger.info(f"Deleted file: {file_path}")
                 except PermissionError:
-                    logging.error(f"Permission denied when deleting {file_path}")
+                    logger.error(f"Permission denied when deleting {file_path}")
                 except Exception as e:
-                    logging.error(f"Failed to delete file {file_path}: {e}")
+                    logger.error(f"Failed to delete file {file_path}: {e}")
 
 
 def get_creation_time(filename):
@@ -44,7 +47,7 @@ def get_sorted_zip_files(directory):
     )
     
     if not sorted_files:
-        logging.warning("No .zip files present in input folder")
+        logger.warning("No .zip files present in input folder")
         
     return sorted_files
 
@@ -62,10 +65,10 @@ def process_zip_file(filename, config_paths):
     sub_output_folder = datetime.now().strftime("%B_%d_%Y").upper()
     
     try:            
-        logging.info(f'** Started Processing file: {filename} **')
+        logger.info(f'** Started Processing file: {filename} **')
         delete_all_files([temp_path, process_path]) 
 
-        logging.info("File extraction started from input path")
+        logger.info("File extraction started from input path")
         extract_input.Input_Extract(
             os.path.join(input_path, filename),
             output_path,
@@ -74,7 +77,7 @@ def process_zip_file(filename, config_paths):
             process_path,
             unprocessed_path
         )
-        logging.info("File extraction completed")
+        logger.info("File extraction completed")
         
         # Create archive subfolder and move file
         os.makedirs(os.path.join(archive_path, sub_output_folder), exist_ok=True)
@@ -82,21 +85,21 @@ def process_zip_file(filename, config_paths):
             os.path.join(input_path, filename), 
             os.path.join(archive_path, sub_output_folder)
         )
-        logging.info(f'File {filename} moved to archive: {os.path.join(archive_path, sub_output_folder)}')
+        logger.info(f'File {filename} moved to archive: {os.path.join(archive_path, sub_output_folder)}')
         return True
         
     except OSError as e:
-        logging.warning(e)
+        logger.warning(e)
         return False
     except Exception as e:
-        logging.error(f'Error processing file {filename}: {e}')
+        logger.error(f'Error processing file {filename}: {e}')
         os.makedirs(os.path.join(unprocessed_path, sub_output_folder), exist_ok=True)
         # Move file to unprocessed folder
         shutil.move(
             os.path.join(input_path, filename),
             os.path.join(unprocessed_path, sub_output_folder)
         )
-        logging.info(f'ErrorFile {filename} moved to {os.path.join(unprocessed_path, sub_output_folder)}')
+        logger.info(f'ErrorFile {filename} moved to {os.path.join(unprocessed_path, sub_output_folder)}')
         return False
 
 
@@ -117,18 +120,18 @@ def load_config(config_path='devCode/config/config.ini'):
     }
 
 
-def setup_logging():
-    """Configure logging"""
-    logging.basicConfig(
-        level=logging.INFO,
-        format='%(asctime)s - %(levelname)s - %(filename)s - %(message)s'
-    )
+# def setup_logging():
+#     """Configure logging"""
+#     logging.basicConfig(
+#         level=logging.INFO,
+#         format='%(asctime)s - %(levelname)s - %(filename)s - %(message)s'
+#     )
 
 if __name__ == '__main__':
     """Main entry point of the program"""
-    setup_logging()
+    # setup_logging()
     
-    logging.info('Initializing the config')
+    logger.info('Initializing the config')
     config_paths = load_config()
     
     try:
@@ -142,6 +145,6 @@ if __name__ == '__main__':
             process_zip_file(filename, config_paths)
             
     except Exception as e:
-        logging.error(f"An error occurred: {e}")
+        logger.error(f"An error occurred: {e}")
 
 

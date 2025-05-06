@@ -1,8 +1,8 @@
 import win32com.client as win32c
-from devCode.converter_modules.abbyy_integration import SamplesConfig
-import logging
+from converter_modules.abbyy_integration import SamplesConfig
+from logs.logs_handler import get_logger
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(filename)s - %(message)s')
+logger = get_logger(__name__)
 
 def Run(file_path,output_path):
     ## Load ABBYY FineReader Engine
@@ -22,7 +22,7 @@ def LoadEngine():
     EngineLoader = win32c.Dispatch("FREngine.OutprocLoader.12")
     
     Engine = EngineLoader.InitializeEngine( SamplesConfig.GetCustomerProjectId(), SamplesConfig.GetLicensePath(), SamplesConfig.GetLicensePassword(), "", "", False )
-    logging.info('Engine initialized')
+    logger.info('Engine initialized')
     
 def ProcessWithEngine(file_path,output_path):
     try:
@@ -54,15 +54,8 @@ def SetupFREngine():
 def ProcessImage(file_path,output_path):
     global Engine
 
-    imagePath = file_path #os.path.join(SamplesConfig.GetSamplesFolder(),"Input\\co_p001aft183.pdf")
-   
-    ## Don't recognize PDF file with a textual content, just copy it
-    # if( Engine.IsPdfWithTextualContent( imagePath, None ) ):
-    #     DisplayMessage( "Copy results..." )
-    #     resultPath = os.path.join(SamplesConfig.GetSamplesFolder(),"SampleImages\\Demo_copy.pdf")
-    #     copy2( imagePath, resultPath )
-    #     return
-    
+    imagePath = file_path 
+
     ## Create document
     document = Engine.CreateFRDocument()
 
@@ -90,15 +83,8 @@ def ProcessImage(file_path,output_path):
         export_params.UseDocumentStructure = True
 
 	## Save results to rtf with default parameters
-        rtfExportPath = output_path #os.path.join(SamplesConfig.GetSamplesFolder() , "Input\\co_p001aft183.docx")
-        document.Export( rtfExportPath,FEF_DOCX , export_params )#FEF_RTF
-
-	# ## Save results to pdf using 'balanced' scenario
-    #     pdfParams = Engine.CreatePDFExportParams()
-    #     pdfParams.Scenario = PES_Balanced
-
-    #     pdfExportPath = os.path.join(SamplesConfig.GetSamplesFolder() , "SampleImages\\Demo_Python3.pdf")
-    #     document.Export( pdfExportPath, FEF_PDF, pdfParams )
+        rtfExportPath = output_path 
+        document.Export( rtfExportPath,FEF_DOCX , export_params )
     
     except Exception as e:
         DisplayMessage( e )
@@ -116,9 +102,9 @@ def UnloadEngine():
 
 def DisplayMessage( message ,excp_flag = False):
     if excp_flag:
-        logging.error(message)
+        logger.error(message)
     else:
-        logging.info(message)
+        logger.info(message)
 
 # try:
 #     ## Include config-file SamplesConfig.py

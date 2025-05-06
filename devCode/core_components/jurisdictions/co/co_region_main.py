@@ -5,8 +5,8 @@ from PIL import Image, ImageFilter
 import io, os
 from docx.oxml import OxmlElement
 import re
-from devCode.co_region import co_redline
-from devCode.co_region import co_aft
+from core_components.jurisdictions.co import co_redline
+from core_components.jurisdictions.co import co_aft
 import logging
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(filename)s - %(message)s')

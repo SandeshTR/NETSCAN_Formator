@@ -7,9 +7,9 @@ import logging.handlers
 
 # Default configurations
 DEFAULT_LOG_LEVEL = logging.INFO
-DEFAULT_FORMAT = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+DEFAULT_FORMAT = '%(asctime)s - %(filename)s - %(name)s - %(levelname)s - %(message)s'
 DEFAULT_DATE_FORMAT = '%Y-%m-%d %H:%M:%S'
-DEFAULT_LOG_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'logs')
+DEFAULT_LOG_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'logs_dir')
 DEFAULT_MAX_BYTES = 10 * 1024 * 1024  # 10 MB
 DEFAULT_BACKUP_COUNT = 5
 
@@ -78,6 +78,11 @@ class LogsHandler:
         
         cls._initialized = True
         
+        # Add a separator and timestamp for new application run
+        timestamp = datetime.now().strftime(date_format)
+        separator = f"\n{'=' * 80}\n== NEW APPLICATION RUN: {timestamp} {'=' * (80 - 22 - len(timestamp))}"
+        root_logger.info(separator)
+
         # Log configuration info
         root_logger.info(f"Logging configured with level={logging.getLevelName(log_level)}")
         if file_logging:
@@ -144,12 +149,12 @@ def set_log_level(logger_name: Optional[str] = None, level: Union[int, str] = lo
 
 
 # Example usage (commented out)
-if __name__ == "__main__":
-    # Configure logging
-    configure_logging(log_level=logging.DEBUG)
+# if __name__ == "__main__":
+#     # Configure logging
+#     configure_logging(log_level=logging.DEBUG)
     
-    # Get a logger
-    logger = get_logger(__name__)
+#     # Get a logger
+#     logger = get_logger(__name__)
     
     # # Log some messages
     # logger.debug("This is a debug message")

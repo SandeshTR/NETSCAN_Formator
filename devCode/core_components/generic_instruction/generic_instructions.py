@@ -10,36 +10,17 @@ import os
 import time
 # from devCode import FormatTableStyle, RemoveTable , RemoveSectionBreaks, CheckSmallCapsFunction
 # from devCode import replace_bullets 
-import logging
+from logs.logs_handler import get_logger
 
-   
+
+logger = get_logger(__name__)
+
 
 
 # Precompile the regular expressions
 email_pattern = re.compile(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b')
 url_pattern = re.compile(r'\b(?:https?://|www\.)\S+\b')
 doc_link_pattern = re.compile(r'\b\S+\.(com|gov|aspx|html|txt|rtf|pdf|doc|docx|xls|xlsx)\b')
-
-
-def convert_file_to_docx(file_path, output_path):
-    """ 
-    Convert a PDF or DOC file to DOCX format using Microsoft Word. 
-    """
-    word = comtypes.client.CreateObject('Word.Application')
-    word.Visible = False      # Keep Word application hidden
-
-    try:
-        logging.info(f"Converting {file_path} to {output_path}")
-        doc = word.Documents.Open(file_path)
-        doc.SaveAs(output_path, FileFormat=16)     # FileFormat=16 is for .docx
-        doc.Close()
-        logging.info(f"Conversion successful: {output_path}")
-
-    except Exception as e:
-        logging.info(f"An error occurred during conversion: {e}")
-    finally:
-        word.Quit()
-
 
 
 def format_document(doc_path,region_code = None):
@@ -70,7 +51,7 @@ def format_document(doc_path,region_code = None):
     
     # Save the modified document
     doc.save(doc_path)
-    logging.info(f" Formatted document and saved: {doc_path}")
+    logger.info(f" Formatted document and saved: {doc_path}")
 
     # custom call functions
     # FormatTableStyle.add_border_doc(doc_path,doc_path)        #adds border to all the table elements
@@ -316,27 +297,27 @@ def word_file_indentation(doc_path):
         paragraph.paragraph_format.first_line_indent = Inches(0)
     
     doc.save(doc_path)
-    logging.info(f"Margins adjusted and selective first-line indentation applied to the document: {doc_path}")
+    logger.info(f"Margins adjusted and selective first-line indentation applied to the document: {doc_path}")
 
 
 
-def check_file_type_and_convert(input_file_path: str, output_doc_path: str):
-    """
-    Check the file type and convert it to DOCX format, then apply formatting.
-    """
-    if os.path.exists(output_doc_path):
-        os.remove(output_doc_path)
+# def check_file_type_and_convert(input_file_path: str, output_doc_path: str):
+#     """
+#     Check the file type and convert it to DOCX format, then apply formatting.
+#     """
+#     if os.path.exists(output_doc_path):
+#         os.remove(output_doc_path)
 
-    base_name, file_extension = os.path.splitext(input_file_path)
-    temp_doc_path = f"{base_name}.docx"
+#     base_name, file_extension = os.path.splitext(input_file_path)
+#     temp_doc_path = f"{base_name}.docx"
 
-    if file_extension.strip().lower() in ['.doc', '.pdf', '.docx']:
-        convert_file_to_docx(input_file_path, temp_doc_path)
-    else:
-        logging.warning("Unsupported file type. Only .doc and .pdf are supported.")
-        return None
+#     if file_extension.strip().lower() in ['.doc', '.pdf', '.docx']:
+#         convert_file_to_docx(input_file_path, temp_doc_path)
+#     else:
+#         logger.warning("Unsupported file type. Only .doc and .pdf are supported.")
+#         return None
 
-    time.sleep(5)  # Ensure the file is fully converted before proceeding
-    return temp_doc_path
+#     time.sleep(5)  # Ensure the file is fully converted before proceeding
+#     return temp_doc_path
 
 # format_document(r"C:\File\NETSCAN\Input\NETSCAN_CO_Test_14\Exception\2025-00021_co_p.docx")
