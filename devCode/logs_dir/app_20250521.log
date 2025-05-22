@@ -1,0 +1,259 @@
+2025-05-21 17:51:35 - logs_handler.py - root - INFO - 
+================================================================================
+== NEW APPLICATION RUN: 2025-05-21 17:51:35 =======================================
+2025-05-21 17:51:35 - logs_handler.py - root - INFO - Logging configured with level=INFO
+2025-05-21 17:51:35 - logs_handler.py - root - INFO - File logging enabled at: c:\NETSCAN_Formator\devCode\logs_dir\app_20250521.log
+2025-05-21 17:51:36 - main.py - __main__ - INFO - Initializing the config
+2025-05-21 17:51:36 - loadconfig.py - config.loadconfig - INFO - Loading configuration from file
+2025-05-21 17:51:36 - folder_operations.py - common_func.folder_operations - INFO - Subfolder already present: C:\File\NETSCAN\Input
+2025-05-21 17:51:36 - folder_operations.py - common_func.folder_operations - INFO - Subfolder already present: C:\File\NETSCAN\Output
+2025-05-21 17:51:36 - folder_operations.py - common_func.folder_operations - INFO - Subfolder already present: C:\File\NETSCAN\Process
+2025-05-21 17:51:36 - folder_operations.py - common_func.folder_operations - INFO - Subfolder already present: C:\File\NETSCAN\Temp
+2025-05-21 17:51:36 - folder_operations.py - common_func.folder_operations - INFO - Subfolder already present: C:\File\NETSCAN\Unprocessed
+2025-05-21 17:51:36 - main.py - __main__ - INFO - ** Started Processing file: KY-Test.zip **
+2025-05-21 17:51:36 - folder_operations.py - root - INFO - Processing folder: C:\File\NETSCAN\temp
+2025-05-21 17:51:36 - folder_operations.py - root - INFO - Processing folder: C:\File\NETSCAN\process
+2025-05-21 17:51:36 - main.py - __main__ - INFO - File extraction started from input path
+2025-05-21 17:51:36 - extract_input.py - extract_input - WARNING - Keyword 'NETSCAN_' not found in filename: C:\File\NETSCAN\input\KY-Test.zip
+2025-05-21 17:51:36 - folder_operations.py - common_func.folder_operations - INFO - Extracting ZIP file: C:\File\NETSCAN\input\KY-Test.zip to C:\File\NETSCAN\input\KY-Test
+2025-05-21 17:51:36 - folder_operations.py - common_func.folder_operations - INFO - Extracted C:\File\NETSCAN\input\KY-Test.zip to C:\File\NETSCAN\input\KY-Test
+2025-05-21 17:51:36 - folder_operations.py - common_func.folder_operations - INFO - Completed extraction of C:\File\NETSCAN\input\KY-Test.zip
+2025-05-21 17:51:36 - extract_input.py - extract_input - INFO - Looping through folders in base directory: C:\File\NETSCAN\input\KY-Test
+2025-05-21 17:51:36 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\KY-Test\NETSCAN_KY25091.pdf
+2025-05-21 17:51:36 - extract_input.py - extract_input - ERROR - Error processing file C:\File\NETSCAN\input\KY-Test\NETSCAN_KY25091.pdf: 'NoneType' object has no attribute 'lower'
+2025-05-21 17:51:36 - extract_input.py - extract_input - INFO - Moved file to exception directory: C:\File\NETSCAN\Output\KY-Test\Exception\NETSCAN_KY25091.pdf
+2025-05-21 17:51:36 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\KY-Test\NETSCAN_KY25121.pdf
+2025-05-21 17:51:36 - extract_input.py - extract_input - ERROR - Error processing file C:\File\NETSCAN\input\KY-Test\NETSCAN_KY25121.pdf: 'NoneType' object has no attribute 'lower'
+2025-05-21 17:51:36 - extract_input.py - extract_input - INFO - Moved file to exception directory: C:\File\NETSCAN\Output\KY-Test\Exception\NETSCAN_KY25121.pdf
+2025-05-21 17:51:36 - main.py - __main__ - INFO - File extraction completed
+2025-05-21 17:51:36 - main.py - __main__ - INFO - File KY-Test.zip moved to archive: C:\File\NETSCAN\Archive\MAY_21_2025
+2025-05-21 17:51:36 - main.py - __main__ - INFO - ** Started Processing file: DE-Test.zip **
+2025-05-21 17:51:36 - folder_operations.py - root - INFO - Processing folder: C:\File\NETSCAN\temp
+2025-05-21 17:51:36 - folder_operations.py - root - INFO - Processing folder: C:\File\NETSCAN\process
+2025-05-21 17:51:36 - main.py - __main__ - INFO - File extraction started from input path
+2025-05-21 17:51:36 - extract_input.py - extract_input - WARNING - Keyword 'NETSCAN_' not found in filename: C:\File\NETSCAN\input\DE-Test.zip
+2025-05-21 17:51:36 - folder_operations.py - common_func.folder_operations - INFO - Extracting ZIP file: C:\File\NETSCAN\input\DE-Test.zip to C:\File\NETSCAN\input\DE-Test
+2025-05-21 17:51:36 - folder_operations.py - common_func.folder_operations - INFO - Extracted C:\File\NETSCAN\input\DE-Test.zip to C:\File\NETSCAN\input\DE-Test
+2025-05-21 17:51:36 - folder_operations.py - common_func.folder_operations - INFO - Completed extraction of C:\File\NETSCAN\input\DE-Test.zip
+2025-05-21 17:51:36 - extract_input.py - extract_input - INFO - Looping through folders in base directory: C:\File\NETSCAN\input\DE-Test
+2025-05-21 17:51:36 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\DE-Test\NETSCAN_DE_final_final27_DE_Reg_536_01-01-24.pdf
+2025-05-21 17:51:36 - extract_input.py - extract_input - ERROR - Error processing file C:\File\NETSCAN\input\DE-Test\NETSCAN_DE_final_final27_DE_Reg_536_01-01-24.pdf: 'NoneType' object has no attribute 'lower'
+2025-05-21 17:51:36 - extract_input.py - extract_input - INFO - Moved file to exception directory: C:\File\NETSCAN\Output\DE-Test\Exception\NETSCAN_DE_final_final27_DE_Reg_536_01-01-24.pdf
+2025-05-21 17:51:36 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\DE-Test\NETSCAN_DE_final_final27_DE_Reg_874_05-01-24.pdf
+2025-05-21 17:51:36 - extract_input.py - extract_input - ERROR - Error processing file C:\File\NETSCAN\input\DE-Test\NETSCAN_DE_final_final27_DE_Reg_874_05-01-24.pdf: 'NoneType' object has no attribute 'lower'
+2025-05-21 17:51:36 - extract_input.py - extract_input - INFO - Moved file to exception directory: C:\File\NETSCAN\Output\DE-Test\Exception\NETSCAN_DE_final_final27_DE_Reg_874_05-01-24.pdf
+2025-05-21 17:51:36 - main.py - __main__ - INFO - File extraction completed
+2025-05-21 17:51:36 - main.py - __main__ - INFO - File DE-Test.zip moved to archive: C:\File\NETSCAN\Archive\MAY_21_2025
+2025-05-21 17:53:42 - logs_handler.py - root - INFO - 
+================================================================================
+== NEW APPLICATION RUN: 2025-05-21 17:53:42 =======================================
+2025-05-21 17:53:42 - logs_handler.py - root - INFO - Logging configured with level=INFO
+2025-05-21 17:53:42 - logs_handler.py - root - INFO - File logging enabled at: c:\NETSCAN_Formator\devCode\logs_dir\app_20250521.log
+2025-05-21 17:53:42 - main.py - __main__ - INFO - Initializing the config
+2025-05-21 17:53:42 - loadconfig.py - config.loadconfig - INFO - Loading configuration from file
+2025-05-21 17:53:42 - folder_operations.py - common_func.folder_operations - INFO - Subfolder already present: C:\File\NETSCAN\Input
+2025-05-21 17:53:42 - folder_operations.py - common_func.folder_operations - INFO - Subfolder already present: C:\File\NETSCAN\Output
+2025-05-21 17:53:42 - folder_operations.py - common_func.folder_operations - INFO - Subfolder already present: C:\File\NETSCAN\Process
+2025-05-21 17:53:42 - folder_operations.py - common_func.folder_operations - INFO - Subfolder already present: C:\File\NETSCAN\Temp
+2025-05-21 17:53:42 - folder_operations.py - common_func.folder_operations - INFO - Subfolder already present: C:\File\NETSCAN\Unprocessed
+2025-05-21 17:53:42 - main.py - __main__ - INFO - ** Started Processing file: NETSCAN_DE-Test.zip **
+2025-05-21 17:53:42 - folder_operations.py - root - INFO - Processing folder: C:\File\NETSCAN\temp
+2025-05-21 17:53:42 - folder_operations.py - root - INFO - Processing folder: C:\File\NETSCAN\process
+2025-05-21 17:53:42 - main.py - __main__ - INFO - File extraction started from input path
+2025-05-21 17:53:42 - folder_operations.py - common_func.folder_operations - INFO - Extracting ZIP file: C:\File\NETSCAN\input\NETSCAN_DE-Test.zip to C:\File\NETSCAN\input\NETSCAN_DE-Test
+2025-05-21 17:53:42 - folder_operations.py - common_func.folder_operations - INFO - Extracted C:\File\NETSCAN\input\NETSCAN_DE-Test.zip to C:\File\NETSCAN\input\NETSCAN_DE-Test
+2025-05-21 17:53:42 - folder_operations.py - common_func.folder_operations - INFO - Completed extraction of C:\File\NETSCAN\input\NETSCAN_DE-Test.zip
+2025-05-21 17:53:42 - extract_input.py - extract_input - INFO - Looping through folders in base directory: C:\File\NETSCAN\input\NETSCAN_DE-Test
+2025-05-21 17:53:42 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_DE-Test\NETSCAN_DE_final_final27_DE_Reg_536_01-01-24.pdf
+2025-05-21 17:53:42 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_DE-Test\NETSCAN_DE_final_final27_DE_Reg_536_01-01-24.pdf
+2025-05-21 17:53:42 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Initializing Engine...
+2025-05-21 17:53:43 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Engine initialized
+2025-05-21 17:53:43 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Loading predefined profile...
+2025-05-21 17:53:43 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Loading image...
+2025-05-21 17:53:53 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Process...
+2025-05-21 17:55:23 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Saving results...
+2025-05-21 17:55:25 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Deinitializing Engine...
+2025-05-21 17:55:26 - extract_input.py - extract_input - INFO - Converted PDF to DOCX: C:\File\NETSCAN\process\NETSCAN_DE_final_final27_DE_Reg_536_01-01-24.docx
+2025-05-21 17:55:27 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\NETSCAN_DE_final_final27_DE_Reg_536_01-01-24.docx
+2025-05-21 17:55:27 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 17:55:27 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 17:55:27 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 17:55:27 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 17:55:27 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 17:55:27 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 17:55:27 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 17:55:27 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 17:55:27 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 17:55:27 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 17:55:27 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 17:55:27 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 17:55:27 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 17:55:27 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 17:55:27 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 17:55:27 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 17:55:27 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 17:55:27 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 17:55:27 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 17:55:27 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 17:55:27 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-21 17:55:33 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-21 17:57:01 - word_bullets_operations.py - root - INFO - Replaced 3088 bullets in NETSCAN_DE_final_final27_DE_Reg_536_01-01-24.docx
+2025-05-21 17:57:04 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in NETSCAN_DE_final_final27_DE_Reg_536_01-01-24.docx
+2025-05-21 17:57:04 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in NETSCAN_DE_final_final27_DE_Reg_536_01-01-24.docx
+2025-05-21 17:57:04 - word_effects_CheckSmallCapsFunction.py - root - INFO - Paragraph: Division of Waste and Hazardous Substances
+2025-05-21 17:57:04 - word_paragraph_operations.py - root - INFO - Total paragraphs: 2622
+2025-05-21 17:57:04 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-21 17:57:05 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\NETSCAN_DE_final_final27_DE_Reg_536_01-01-24.docx
+2025-05-21 17:57:05 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_DE-Test\NETSCAN_DE_final_final27_DE_Reg_536_01-01-24.doc
+2025-05-21 17:57:05 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_DE-Test\NETSCAN_DE_final_final27_DE_Reg_536_01-01-24.pdf
+2025-05-21 17:57:08 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_DE-Test\NETSCAN_DE_final_final27_DE_Reg_874_05-01-24.pdf
+2025-05-21 17:57:08 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_DE-Test\NETSCAN_DE_final_final27_DE_Reg_874_05-01-24.pdf
+2025-05-21 17:57:08 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Initializing Engine...
+2025-05-21 17:57:08 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Engine initialized
+2025-05-21 17:57:08 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Loading predefined profile...
+2025-05-21 17:57:08 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Loading image...
+2025-05-21 17:57:11 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Process...
+2025-05-21 17:57:41 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Saving results...
+2025-05-21 17:57:41 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Deinitializing Engine...
+2025-05-21 17:57:42 - extract_input.py - extract_input - INFO - Converted PDF to DOCX: C:\File\NETSCAN\process\NETSCAN_DE_final_final27_DE_Reg_874_05-01-24.docx
+2025-05-21 17:57:42 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\NETSCAN_DE_final_final27_DE_Reg_874_05-01-24.docx
+2025-05-21 17:57:42 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-21 17:57:45 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-21 17:58:14 - word_bullets_operations.py - root - INFO - Replaced 910 bullets in NETSCAN_DE_final_final27_DE_Reg_874_05-01-24.docx
+2025-05-21 17:58:16 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in NETSCAN_DE_final_final27_DE_Reg_874_05-01-24.docx
+2025-05-21 17:58:16 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in NETSCAN_DE_final_final27_DE_Reg_874_05-01-24.docx
+2025-05-21 17:58:16 - word_effects_CheckSmallCapsFunction.py - root - INFO - Paragraph: Division of Fish and Wildlife
+2025-05-21 17:58:17 - word_paragraph_operations.py - root - INFO - Total paragraphs: 910
+2025-05-21 17:58:17 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-21 17:58:17 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\NETSCAN_DE_final_final27_DE_Reg_874_05-01-24.docx
+2025-05-21 17:58:17 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_DE-Test\NETSCAN_DE_final_final27_DE_Reg_874_05-01-24.doc
+2025-05-21 17:58:17 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_DE-Test\NETSCAN_DE_final_final27_DE_Reg_874_05-01-24.pdf
+2025-05-21 17:58:20 - main.py - __main__ - INFO - File extraction completed
+2025-05-21 17:58:20 - main.py - __main__ - INFO - File NETSCAN_DE-Test.zip moved to archive: C:\File\NETSCAN\Archive\MAY_21_2025
+2025-05-21 17:58:20 - main.py - __main__ - INFO - ** Started Processing file: NETSCAN_KY-Test.zip **
+2025-05-21 17:58:20 - folder_operations.py - root - INFO - Processing folder: C:\File\NETSCAN\temp
+2025-05-21 17:58:20 - folder_operations.py - root - INFO - Processing folder: C:\File\NETSCAN\process
+2025-05-21 17:58:20 - main.py - __main__ - INFO - File extraction started from input path
+2025-05-21 17:58:20 - folder_operations.py - common_func.folder_operations - INFO - Extracting ZIP file: C:\File\NETSCAN\input\NETSCAN_KY-Test.zip to C:\File\NETSCAN\input\NETSCAN_KY-Test
+2025-05-21 17:58:20 - folder_operations.py - common_func.folder_operations - INFO - Extracted C:\File\NETSCAN\input\NETSCAN_KY-Test.zip to C:\File\NETSCAN\input\NETSCAN_KY-Test
+2025-05-21 17:58:20 - folder_operations.py - common_func.folder_operations - INFO - Completed extraction of C:\File\NETSCAN\input\NETSCAN_KY-Test.zip
+2025-05-21 17:58:20 - extract_input.py - extract_input - INFO - Looping through folders in base directory: C:\File\NETSCAN\input\NETSCAN_KY-Test
+2025-05-21 17:58:20 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_KY-Test\NETSCAN_KY25091.pdf
+2025-05-21 17:58:20 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_KY-Test\NETSCAN_KY25091.pdf
+2025-05-21 17:58:20 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Initializing Engine...
+2025-05-21 17:58:20 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Engine initialized
+2025-05-21 17:58:20 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Loading predefined profile...
+2025-05-21 17:58:20 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Loading image...
+2025-05-21 17:58:31 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Process...
+2025-05-21 18:01:41 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Saving results...
+2025-05-21 18:01:58 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Deinitializing Engine...
+2025-05-21 18:01:58 - extract_input.py - extract_input - INFO - Converted PDF to DOCX: C:\File\NETSCAN\process\NETSCAN_KY25091.docx
+2025-05-21 18:02:08 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\NETSCAN_KY25091.docx
+2025-05-21 18:02:08 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:08 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:08 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:08 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:08 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:08 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:08 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:08 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:08 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:08 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:08 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:08 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:08 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:08 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:08 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:08 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:08 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:08 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:02:10 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-21 18:02:26 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-21 18:12:53 - word_bullets_operations.py - root - INFO - Replaced 14674 bullets in NETSCAN_KY25091.docx
+2025-05-21 18:12:56 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in NETSCAN_KY25091.docx
+2025-05-21 18:12:57 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in NETSCAN_KY25091.docx
+2025-05-21 18:12:59 - word_paragraph_operations.py - root - INFO - Total paragraphs: 4709
+2025-05-21 18:13:00 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-21 18:13:01 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\NETSCAN_KY25091.docx
+2025-05-21 18:13:01 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_KY-Test\NETSCAN_KY25091.doc
+2025-05-21 18:13:01 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_KY-Test\NETSCAN_KY25091.pdf
+2025-05-21 18:13:04 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_KY-Test\NETSCAN_KY25121.pdf
+2025-05-21 18:13:04 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_KY-Test\NETSCAN_KY25121.pdf
+2025-05-21 18:13:04 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Initializing Engine...
+2025-05-21 18:13:05 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Engine initialized
+2025-05-21 18:13:05 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Loading predefined profile...
+2025-05-21 18:13:05 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Loading image...
+2025-05-21 18:13:15 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Process...
+2025-05-21 18:17:43 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Saving results...
+2025-05-21 18:17:58 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Deinitializing Engine...
+2025-05-21 18:17:58 - extract_input.py - extract_input - INFO - Converted PDF to DOCX: C:\File\NETSCAN\process\NETSCAN_KY25121.docx
+2025-05-21 18:18:08 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\NETSCAN_KY25121.docx
+2025-05-21 18:18:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:09 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:10 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:10 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:10 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:10 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:10 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:10 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:10 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:10 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:10 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:10 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:10 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:10 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:10 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:10 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:10 - word_table_operations.py - root - INFO - added border to table
+2025-05-21 18:18:11 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-21 18:18:28 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-21 18:30:02 - word_bullets_operations.py - root - INFO - Replaced 16568 bullets in NETSCAN_KY25121.docx
+2025-05-21 18:30:05 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in NETSCAN_KY25121.docx
+2025-05-21 18:30:06 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in NETSCAN_KY25121.docx
+2025-05-21 18:30:08 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5347
+2025-05-21 18:30:09 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-21 18:30:10 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\NETSCAN_KY25121.docx
+2025-05-21 18:30:10 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_KY-Test\NETSCAN_KY25121.doc
+2025-05-21 18:30:10 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_KY-Test\NETSCAN_KY25121.pdf
+2025-05-21 18:30:13 - main.py - __main__ - INFO - File extraction completed
+2025-05-21 18:30:13 - main.py - __main__ - INFO - File NETSCAN_KY-Test.zip moved to archive: C:\File\NETSCAN\Archive\MAY_21_2025

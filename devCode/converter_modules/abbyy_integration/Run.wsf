@@ -1,0 +1,9 @@
+<package>
+	<job id="RunHello">
+		<script language="JScript">
+			var WshShell = WScript.CreateObject( "WScript.Shell" );
+			var command = "cmd /C py Hello.py & pause";
+			WshShell.Run( command, 1, true );
+		</script>
+	</job>
+</package>

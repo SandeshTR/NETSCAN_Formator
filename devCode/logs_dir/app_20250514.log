@@ -1,0 +1,58 @@
+2025-05-14 13:52:05 - logs_handler.py - root - INFO - 
+================================================================================
+== NEW APPLICATION RUN: 2025-05-14 13:52:05 =======================================
+2025-05-14 13:52:05 - logs_handler.py - root - INFO - Logging configured with level=INFO
+2025-05-14 13:52:05 - logs_handler.py - root - INFO - File logging enabled at: c:\NETSCAN_Formator\devCode\logs_dir\app_20250514.log
+2025-05-14 13:52:07 - <frozen importlib._bootstrap> - pikepdf._core - INFO - pikepdf C++ to Python logger bridge initialized
+2025-05-14 13:52:07 - main.py - __main__ - INFO - Initializing the config
+2025-05-14 13:52:07 - loadconfig.py - config.loadconfig - INFO - Loading configuration from file
+2025-05-14 13:52:07 - folder_operations.py - common_func.folder_operations - INFO - Subfolder already present: C:\File\NETSCAN\Input
+2025-05-14 13:52:07 - folder_operations.py - common_func.folder_operations - INFO - Subfolder already present: C:\File\NETSCAN\Output
+2025-05-14 13:52:07 - folder_operations.py - common_func.folder_operations - INFO - Subfolder already present: C:\File\NETSCAN\Process
+2025-05-14 13:52:07 - folder_operations.py - common_func.folder_operations - INFO - Subfolder already present: C:\File\NETSCAN\Temp
+2025-05-14 13:52:07 - folder_operations.py - common_func.folder_operations - INFO - Subfolder already present: C:\File\NETSCAN\Unprocessed
+2025-05-14 13:52:07 - main.py - __main__ - INFO - ** Started Processing file: NETSCAN_CO_test1.zip **
+2025-05-14 13:52:07 - folder_operations.py - root - INFO - Processing folder: C:\File\NETSCAN\temp
+2025-05-14 13:52:07 - folder_operations.py - root - INFO - Processing folder: C:\File\NETSCAN\process
+2025-05-14 13:52:07 - main.py - __main__ - INFO - File extraction started from input path
+2025-05-14 13:52:07 - folder_operations.py - common_func.folder_operations - INFO - Extracting ZIP file: C:\File\NETSCAN\input\NETSCAN_CO_test1.zip to C:\File\NETSCAN\input\NETSCAN_CO_test1
+2025-05-14 13:52:07 - folder_operations.py - common_func.folder_operations - INFO - Extracted C:\File\NETSCAN\input\NETSCAN_CO_test1.zip to C:\File\NETSCAN\input\NETSCAN_CO_test1
+2025-05-14 13:52:07 - folder_operations.py - common_func.folder_operations - INFO - Completed extraction of C:\File\NETSCAN\input\NETSCAN_CO_test1.zip
+2025-05-14 13:52:07 - extract_input.py - extract_input - INFO - Looping through folders in base directory: C:\File\NETSCAN\input\NETSCAN_CO_test1
+2025-05-14 13:52:07 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_CO_test1\co_p001aft183.pdf
+2025-05-14 13:52:07 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_CO_test1\co_p001aft183.pdf
+2025-05-14 13:52:09 - com_word_format_converter.py - converter_modules.com_integration.com_word_format_converter - INFO - Converting C:\File\NETSCAN\input\NETSCAN_CO_test1\co_p001aft183.pdf to C:\File\NETSCAN\process\co_p001aft183.docx
+2025-05-14 13:52:13 - com_word_format_converter.py - converter_modules.com_integration.com_word_format_converter - INFO - Conversion successful: C:\File\NETSCAN\process\co_p001aft183.docx
+2025-05-14 13:52:13 - extract_input.py - extract_input - INFO - COM Convesion- Converted PDF to DOCX: C:\File\NETSCAN\process\co_p001aft183.docx
+2025-05-14 13:52:13 - co_region_main.py - core_components.jurisdictions.co.co_region_main - INFO - Starting main_co_files function with input: C:\File\NETSCAN\process\co_p001aft183.docx
+2025-05-14 13:52:13 - co_region_main.py - core_components.jurisdictions.co.co_region_main - INFO - header check : False
+2025-05-14 13:52:13 - co_region_main.py - core_components.jurisdictions.co.co_region_main - INFO - read document
+2025-05-14 13:52:13 - co_region_main.py - core_components.jurisdictions.co.co_region_main - INFO - number of images identified 1
+2025-05-14 13:52:13 - co_region_main.py - core_components.jurisdictions.co.co_region_main - INFO - Number of images extracted: 1
+2025-05-14 13:52:14 - co_region_main.py - core_components.jurisdictions.co.co_region_main - INFO - added location text 0
+2025-05-14 13:52:14 - co_region_main.py - core_components.jurisdictions.co.co_region_main - INFO - calling single text insert
+2025-05-14 13:52:14 - co_region_main.py - core_components.jurisdictions.co.co_region_main - INFO -  cleared text - removed logo content 
+2025-05-14 13:52:14 - co_region_main.py - core_components.jurisdictions.co.co_region_main - INFO - Modified document saved as C:\File\NETSCAN\process\co_p001aft183.docx
+2025-05-14 13:52:14 - co_aft.py - root - INFO - type assigned : 
+2025-05-14 13:52:14 - co_aft.py - root - INFO - no matching varient
+2025-05-14 13:52:14 - word_paragraph_operations.py - root - INFO - Removed hyperlinks and saved as C:\File\NETSCAN\process\co_p001aft183.docx
+2025-05-14 13:52:14 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\co_p001aft183.docx
+2025-05-14 13:52:14 - word_table_operations.py - root - INFO - added border to table
+2025-05-14 13:52:14 - word_table_operations.py - root - INFO - added border to table
+2025-05-14 13:52:14 - word_table_operations.py - root - INFO - added border to table
+2025-05-14 13:52:14 - word_table_operations.py - root - INFO - added border to table
+2025-05-14 13:52:14 - word_table_operations.py - root - INFO - added border to table
+2025-05-14 13:52:14 - word_table_operations.py - root - INFO - added border to table
+2025-05-14 13:52:14 - word_table_operations.py - root - INFO - added border to table
+2025-05-14 13:52:15 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-14 13:52:18 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-14 13:52:34 - word_bullets_operations.py - root - INFO - Replaced 554 bullets in co_p001aft183.docx
+2025-05-14 13:52:36 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in co_p001aft183.docx
+2025-05-14 13:52:36 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in co_p001aft183.docx
+2025-05-14 13:52:36 - word_paragraph_operations.py - root - INFO - Total paragraphs: 392
+2025-05-14 13:52:37 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-14 13:52:37 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\co_p001aft183.docx
+2025-05-14 13:52:37 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_CO_test1\co_p001aft183.doc
+2025-05-14 13:52:37 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_CO_test1\co_p001aft183.pdf
+2025-05-14 13:52:40 - main.py - __main__ - INFO - File extraction completed
+2025-05-14 13:52:40 - main.py - __main__ - INFO - File NETSCAN_CO_test1.zip moved to archive: C:\File\NETSCAN\Archive\MAY_14_2025

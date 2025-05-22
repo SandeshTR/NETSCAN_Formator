@@ -1,0 +1,184 @@
+2025-05-07 13:08:29 - logs_handler.py - root - INFO - 
+================================================================================
+== NEW APPLICATION RUN: 2025-05-07 13:08:29 =======================================
+2025-05-07 13:08:29 - logs_handler.py - root - INFO - Logging configured with level=INFO
+2025-05-07 13:08:29 - logs_handler.py - root - INFO - File logging enabled at: C:\NETSCAN_Formator\devCode\logs_dir\app_20250507.log
+2025-05-07 13:09:30 - logs_handler.py - root - INFO - 
+================================================================================
+== NEW APPLICATION RUN: 2025-05-07 13:09:30 =======================================
+2025-05-07 13:09:30 - logs_handler.py - root - INFO - Logging configured with level=INFO
+2025-05-07 13:09:30 - logs_handler.py - root - INFO - File logging enabled at: C:\NETSCAN_Formator\devCode\logs_dir\app_20250507.log
+2025-05-07 13:12:38 - logs_handler.py - root - INFO - 
+================================================================================
+== NEW APPLICATION RUN: 2025-05-07 13:12:38 =======================================
+2025-05-07 13:12:38 - logs_handler.py - root - INFO - Logging configured with level=INFO
+2025-05-07 13:12:38 - logs_handler.py - root - INFO - File logging enabled at: c:\NETSCAN_Formator\devCode\logs_dir\app_20250507.log
+2025-05-07 13:13:05 - logs_handler.py - root - INFO - 
+================================================================================
+== NEW APPLICATION RUN: 2025-05-07 13:13:05 =======================================
+2025-05-07 13:13:05 - logs_handler.py - root - INFO - Logging configured with level=INFO
+2025-05-07 13:13:05 - logs_handler.py - root - INFO - File logging enabled at: c:\NETSCAN_Formator\devCode\logs_dir\app_20250507.log
+2025-05-07 13:13:34 - logs_handler.py - root - INFO - 
+================================================================================
+== NEW APPLICATION RUN: 2025-05-07 13:13:34 =======================================
+2025-05-07 13:13:34 - logs_handler.py - root - INFO - Logging configured with level=INFO
+2025-05-07 13:13:34 - logs_handler.py - root - INFO - File logging enabled at: c:\NETSCAN_Formator\devCode\logs_dir\app_20250507.log
+2025-05-07 13:13:34 - main.py - __main__ - INFO - Initializing the config
+2025-05-07 13:13:34 - loadconfig.py - config.loadconfig - INFO - Loading configuration from file
+2025-05-07 13:13:34 - extract_input.py - extract_input - INFO - Subfolder already present: C:\File\NETSCAN\Input
+2025-05-07 13:13:34 - extract_input.py - extract_input - INFO - Subfolder already present: C:\File\NETSCAN\Output
+2025-05-07 13:13:34 - extract_input.py - extract_input - INFO - Subfolder already present: C:\File\NETSCAN\Process
+2025-05-07 13:13:34 - extract_input.py - extract_input - INFO - Subfolder already present: C:\File\NETSCAN\Temp
+2025-05-07 13:13:34 - extract_input.py - extract_input - INFO - Subfolder already present: C:\File\NETSCAN\Unprocessed
+2025-05-07 13:13:34 - main.py - __main__ - INFO - ** Started Processing file: NETSCAN_COtest.zip **
+2025-05-07 13:13:34 - main.py - __main__ - INFO - Processing folder: C:\File\NETSCAN\temp
+2025-05-07 13:13:34 - main.py - __main__ - INFO - Processing folder: C:\File\NETSCAN\process
+2025-05-07 13:13:34 - main.py - __main__ - INFO - File extraction started from input path
+2025-05-07 13:13:34 - extract_input.py - extract_input - INFO - Extracting ZIP file: C:\File\NETSCAN\input\NETSCAN_COtest.zip to C:\File\NETSCAN\input\NETSCAN_COtest
+2025-05-07 13:13:34 - extract_input.py - extract_input - INFO - Extracted C:\File\NETSCAN\input\NETSCAN_COtest.zip to C:\File\NETSCAN\input\NETSCAN_COtest
+2025-05-07 13:13:34 - extract_input.py - extract_input - INFO - Completed extraction of C:\File\NETSCAN\input\NETSCAN_COtest.zip
+2025-05-07 13:13:34 - extract_input.py - extract_input - INFO - Looping through folders in base directory: C:\File\NETSCAN\input\NETSCAN_COtest
+2025-05-07 13:13:34 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\co_p001a166AddInfo.pdf
+2025-05-07 13:13:34 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\co_p001a166AddInfo.pdf
+2025-05-07 13:13:34 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Initializing Engine...
+2025-05-07 13:13:35 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Engine initialized
+2025-05-07 13:13:35 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Loading predefined profile...
+2025-05-07 13:13:35 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Loading image...
+2025-05-07 13:13:36 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Process...
+2025-05-07 13:13:42 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Saving results...
+2025-05-07 13:13:42 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Deinitializing Engine...
+2025-05-07 13:13:43 - extract_input.py - extract_input - INFO - Converted PDF to DOCX: C:\File\NETSCAN\process\co_p001a166AddInfo.docx
+2025-05-07 13:13:43 - co_region_main.py - root - INFO - Starting main_co_files function with input: C:\File\NETSCAN\process\co_p001a166AddInfo.docx
+2025-05-07 13:13:43 - co_region_main.py - root - INFO - header check : False
+2025-05-07 13:13:43 - co_region_main.py - root - INFO - read document
+2025-05-07 13:13:43 - co_region_main.py - root - INFO - number of images identified 1
+2025-05-07 13:13:43 - co_region_main.py - root - INFO - Number of images extracted: 1
+2025-05-07 13:13:43 - co_region_main.py - root - INFO - Removed hyperlinks and saved as C:\File\NETSCAN\process\co_p001a166AddInfo.docx
+2025-05-07 13:13:43 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\co_p001a166AddInfo.docx
+2025-05-07 13:13:43 - word_file_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\co_p001a166AddInfo.docx
+2025-05-07 13:13:43 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\co_p001a166AddInfo.doc
+2025-05-07 13:13:43 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\co_p001a166AddInfo.pdf
+2025-05-07 13:13:46 - main.py - __main__ - INFO - File extraction completed
+2025-05-07 13:13:46 - main.py - __main__ - INFO - File NETSCAN_COtest.zip moved to archive: C:\File\NETSCAN\Archive\MAY_07_2025
+2025-05-07 14:43:44 - logs_handler.py - root - INFO - 
+================================================================================
+== NEW APPLICATION RUN: 2025-05-07 14:43:44 =======================================
+2025-05-07 14:43:44 - logs_handler.py - root - INFO - Logging configured with level=INFO
+2025-05-07 14:43:44 - logs_handler.py - root - INFO - File logging enabled at: c:\NETSCAN_Formator\devCode\logs_dir\app_20250507.log
+2025-05-07 14:43:44 - main.py - __main__ - INFO - Initializing the config
+2025-05-07 14:43:44 - loadconfig.py - config.loadconfig - INFO - Loading configuration from file
+2025-05-07 14:43:44 - extract_input.py - extract_input - INFO - Subfolder already present: C:\File\NETSCAN\Input
+2025-05-07 14:43:44 - extract_input.py - extract_input - INFO - Subfolder already present: C:\File\NETSCAN\Output
+2025-05-07 14:43:44 - extract_input.py - extract_input - INFO - Subfolder already present: C:\File\NETSCAN\Process
+2025-05-07 14:43:44 - extract_input.py - extract_input - INFO - Subfolder already present: C:\File\NETSCAN\Temp
+2025-05-07 14:43:44 - extract_input.py - extract_input - INFO - Subfolder already present: C:\File\NETSCAN\Unprocessed
+2025-05-07 14:43:44 - main.py - __main__ - INFO - ** Started Processing file: NETSCAN_COtest.zip **
+2025-05-07 14:43:44 - main.py - __main__ - INFO - Processing folder: C:\File\NETSCAN\temp
+2025-05-07 14:43:44 - main.py - __main__ - INFO - Processing folder: C:\File\NETSCAN\process
+2025-05-07 14:43:44 - main.py - __main__ - INFO - File extraction started from input path
+2025-05-07 14:43:44 - extract_input.py - extract_input - INFO - Extracting ZIP file: C:\File\NETSCAN\input\NETSCAN_COtest.zip to C:\File\NETSCAN\input\NETSCAN_COtest
+2025-05-07 14:43:44 - extract_input.py - extract_input - INFO - Extracted C:\File\NETSCAN\input\NETSCAN_COtest.zip to C:\File\NETSCAN\input\NETSCAN_COtest
+2025-05-07 14:43:44 - extract_input.py - extract_input - INFO - Completed extraction of C:\File\NETSCAN\input\NETSCAN_COtest.zip
+2025-05-07 14:43:44 - extract_input.py - extract_input - INFO - Looping through folders in base directory: C:\File\NETSCAN\input\NETSCAN_COtest
+2025-05-07 14:43:44 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\co_p001a166AddInfo.pdf
+2025-05-07 14:43:44 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\co_p001a166AddInfo.pdf
+2025-05-07 14:43:44 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Initializing Engine...
+2025-05-07 14:43:45 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Engine initialized
+2025-05-07 14:43:45 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Loading predefined profile...
+2025-05-07 14:43:45 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Loading image...
+2025-05-07 14:43:46 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Process...
+2025-05-07 14:43:52 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Saving results...
+2025-05-07 14:43:52 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Deinitializing Engine...
+2025-05-07 14:43:52 - extract_input.py - extract_input - INFO - Converted PDF to DOCX: C:\File\NETSCAN\process\co_p001a166AddInfo.docx
+2025-05-07 14:43:52 - co_region_main.py - root - INFO - Starting main_co_files function with input: C:\File\NETSCAN\process\co_p001a166AddInfo.docx
+2025-05-07 14:43:52 - co_region_main.py - root - INFO - header check : False
+2025-05-07 14:43:52 - co_region_main.py - root - INFO - read document
+2025-05-07 14:43:52 - co_region_main.py - root - INFO - number of images identified 1
+2025-05-07 14:43:52 - co_region_main.py - root - INFO - Number of images extracted: 1
+2025-05-07 14:43:52 - co_region_main.py - root - INFO - Removed hyperlinks and saved as C:\File\NETSCAN\process\co_p001a166AddInfo.docx
+2025-05-07 14:43:53 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\co_p001a166AddInfo.docx
+2025-05-07 14:43:53 - word_table_operations.py - root - INFO - added border to table
+2025-05-07 14:43:53 - word_table_operations.py - root - INFO - added border to table
+2025-05-07 14:43:53 - word_table_operations.py - root - INFO - added border to table
+2025-05-07 14:43:53 - word_table_operations.py - root - INFO - added border to table
+2025-05-07 14:43:53 - word_table_operations.py - root - INFO - added border to table
+2025-05-07 14:43:53 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-07 14:43:56 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-07 14:44:16 - _generate.py - comtypes.client._generate - INFO - Could not import comtypes.gen._00020905_0000_0000_C000_000000000046_0_8_7: Typelib different than module
+2025-05-07 14:44:16 - _generate.py - comtypes.client._generate - INFO - # Generating comtypes.gen._00020905_0000_0000_C000_000000000046_0_8_7
+2025-05-07 14:44:28 - _generate.py - comtypes.client._generate - INFO - # Generating comtypes.gen.Word
+2025-05-07 14:44:28 - _generate.py - comtypes.client._generate - INFO - Could not import comtypes.gen._2DF8D04C_5BFA_101B_BDE5_00AA0044DE52_0_2_8: Typelib different than module
+2025-05-07 14:44:28 - _generate.py - comtypes.client._generate - INFO - # Generating comtypes.gen._2DF8D04C_5BFA_101B_BDE5_00AA0044DE52_0_2_8
+2025-05-07 14:44:35 - _generate.py - comtypes.client._generate - INFO - # Generating comtypes.gen.Office
+2025-05-07 14:44:42 - word_bullets_operations.py - root - INFO - Replaced 154 bullets in co_p001a166AddInfo.docx
+2025-05-07 14:44:42 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in co_p001a166AddInfo.docx
+2025-05-07 14:44:42 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in co_p001a166AddInfo.docx
+2025-05-07 14:44:42 - word_paragraph_operations.py - root - INFO - Total paragraphs: 53
+2025-05-07 14:44:42 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-07 14:44:42 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\co_p001a166AddInfo.docx
+2025-05-07 14:44:42 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\co_p001a166AddInfo.doc
+2025-05-07 14:44:42 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\co_p001a166AddInfo.pdf
+2025-05-07 14:44:45 - main.py - __main__ - INFO - File extraction completed
+2025-05-07 14:44:45 - main.py - __main__ - WARNING - Destination path 'C:\File\NETSCAN\Archive\MAY_07_2025\NETSCAN_COtest.zip' already exists
+2025-05-07 17:28:50 - logs_handler.py - root - INFO - 
+================================================================================
+== NEW APPLICATION RUN: 2025-05-07 17:28:50 =======================================
+2025-05-07 17:28:50 - logs_handler.py - root - INFO - Logging configured with level=INFO
+2025-05-07 17:28:50 - logs_handler.py - root - INFO - File logging enabled at: c:\NETSCAN_Formator\devCode\logs_dir\app_20250507.log
+2025-05-07 17:28:51 - main.py - __main__ - INFO - Initializing the config
+2025-05-07 17:28:51 - loadconfig.py - config.loadconfig - INFO - Loading configuration from file
+2025-05-07 17:28:51 - main.py - __main__ - ERROR - An error occurred: module 'extract_input' has no attribute 'check_create_folder'
+2025-05-07 17:31:41 - logs_handler.py - root - INFO - 
+================================================================================
+== NEW APPLICATION RUN: 2025-05-07 17:31:41 =======================================
+2025-05-07 17:31:41 - logs_handler.py - root - INFO - Logging configured with level=INFO
+2025-05-07 17:31:41 - logs_handler.py - root - INFO - File logging enabled at: c:\NETSCAN_Formator\devCode\logs_dir\app_20250507.log
+2025-05-07 17:31:41 - main.py - __main__ - INFO - Initializing the config
+2025-05-07 17:31:41 - loadconfig.py - config.loadconfig - INFO - Loading configuration from file
+2025-05-07 17:31:41 - folder_operations.py - common_func.folder_operations - INFO - Subfolder already present: C:\File\NETSCAN\Input
+2025-05-07 17:31:41 - folder_operations.py - common_func.folder_operations - INFO - Subfolder already present: C:\File\NETSCAN\Output
+2025-05-07 17:31:41 - folder_operations.py - common_func.folder_operations - INFO - Subfolder already present: C:\File\NETSCAN\Process
+2025-05-07 17:31:41 - folder_operations.py - common_func.folder_operations - INFO - Subfolder already present: C:\File\NETSCAN\Temp
+2025-05-07 17:31:41 - folder_operations.py - common_func.folder_operations - INFO - Subfolder already present: C:\File\NETSCAN\Unprocessed
+2025-05-07 17:31:41 - main.py - __main__ - INFO - ** Started Processing file: NETSCAN_COtest.zip **
+2025-05-07 17:31:41 - main.py - __main__ - INFO - Processing folder: C:\File\NETSCAN\temp
+2025-05-07 17:31:41 - main.py - __main__ - INFO - Processing folder: C:\File\NETSCAN\process
+2025-05-07 17:31:41 - main.py - __main__ - INFO - File extraction started from input path
+2025-05-07 17:31:41 - folder_operations.py - common_func.folder_operations - INFO - Extracting ZIP file: C:\File\NETSCAN\input\NETSCAN_COtest.zip to C:\File\NETSCAN\input\NETSCAN_COtest
+2025-05-07 17:31:41 - folder_operations.py - common_func.folder_operations - INFO - Extracted C:\File\NETSCAN\input\NETSCAN_COtest.zip to C:\File\NETSCAN\input\NETSCAN_COtest
+2025-05-07 17:31:41 - folder_operations.py - common_func.folder_operations - INFO - Completed extraction of C:\File\NETSCAN\input\NETSCAN_COtest.zip
+2025-05-07 17:31:41 - extract_input.py - extract_input - INFO - Looping through folders in base directory: C:\File\NETSCAN\input\NETSCAN_COtest
+2025-05-07 17:31:41 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\co_p001a166AddInfo.pdf
+2025-05-07 17:31:41 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\co_p001a166AddInfo.pdf
+2025-05-07 17:31:41 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Initializing Engine...
+2025-05-07 17:31:42 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Engine initialized
+2025-05-07 17:31:42 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Loading predefined profile...
+2025-05-07 17:31:42 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Loading image...
+2025-05-07 17:31:44 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Process...
+2025-05-07 17:31:53 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Saving results...
+2025-05-07 17:31:54 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Deinitializing Engine...
+2025-05-07 17:31:54 - extract_input.py - extract_input - INFO - Converted PDF to DOCX: C:\File\NETSCAN\process\co_p001a166AddInfo.docx
+2025-05-07 17:31:54 - co_region_main.py - root - INFO - Starting main_co_files function with input: C:\File\NETSCAN\process\co_p001a166AddInfo.docx
+2025-05-07 17:31:54 - co_region_main.py - root - INFO - header check : False
+2025-05-07 17:31:54 - co_region_main.py - root - INFO - read document
+2025-05-07 17:31:54 - co_region_main.py - root - INFO - number of images identified 1
+2025-05-07 17:31:54 - co_region_main.py - root - INFO - Number of images extracted: 1
+2025-05-07 17:31:54 - co_region_main.py - root - INFO - Removed hyperlinks and saved as C:\File\NETSCAN\process\co_p001a166AddInfo.docx
+2025-05-07 17:31:54 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\co_p001a166AddInfo.docx
+2025-05-07 17:31:54 - word_table_operations.py - root - INFO - added border to table
+2025-05-07 17:31:54 - word_table_operations.py - root - INFO - added border to table
+2025-05-07 17:31:54 - word_table_operations.py - root - INFO - added border to table
+2025-05-07 17:31:54 - word_table_operations.py - root - INFO - added border to table
+2025-05-07 17:31:54 - word_table_operations.py - root - INFO - added border to table
+2025-05-07 17:31:54 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-07 17:31:58 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-07 17:32:11 - word_bullets_operations.py - root - INFO - Replaced 154 bullets in co_p001a166AddInfo.docx
+2025-05-07 17:32:14 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in co_p001a166AddInfo.docx
+2025-05-07 17:32:14 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in co_p001a166AddInfo.docx
+2025-05-07 17:32:14 - word_paragraph_operations.py - root - INFO - Total paragraphs: 53
+2025-05-07 17:32:14 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-07 17:32:14 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\co_p001a166AddInfo.docx
+2025-05-07 17:32:14 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\co_p001a166AddInfo.doc
+2025-05-07 17:32:14 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\co_p001a166AddInfo.pdf
+2025-05-07 17:32:17 - main.py - __main__ - INFO - File extraction completed
+2025-05-07 17:32:17 - main.py - __main__ - WARNING - Destination path 'C:\File\NETSCAN\Archive\MAY_07_2025\NETSCAN_COtest.zip' already exists

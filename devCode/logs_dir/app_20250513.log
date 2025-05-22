@@ -1,0 +1,1081 @@
+2025-05-13 18:08:09 - logs_handler.py - root - INFO - 
+================================================================================
+== NEW APPLICATION RUN: 2025-05-13 18:08:09 =======================================
+2025-05-13 18:08:09 - logs_handler.py - root - INFO - Logging configured with level=INFO
+2025-05-13 18:08:09 - logs_handler.py - root - INFO - File logging enabled at: c:\NETSCAN_Formator\devCode\logs_dir\app_20250513.log
+2025-05-13 18:08:11 - main.py - __main__ - INFO - Initializing the config
+2025-05-13 18:08:11 - loadconfig.py - config.loadconfig - INFO - Loading configuration from file
+2025-05-13 18:08:11 - folder_operations.py - common_func.folder_operations - INFO - Subfolder already present: C:\File\NETSCAN\Input
+2025-05-13 18:08:11 - folder_operations.py - common_func.folder_operations - INFO - Subfolder already present: C:\File\NETSCAN\Output
+2025-05-13 18:08:11 - folder_operations.py - common_func.folder_operations - INFO - Subfolder already present: C:\File\NETSCAN\Process
+2025-05-13 18:08:11 - folder_operations.py - common_func.folder_operations - INFO - Subfolder already present: C:\File\NETSCAN\Temp
+2025-05-13 18:08:11 - folder_operations.py - common_func.folder_operations - INFO - Subfolder already present: C:\File\NETSCAN\Unprocessed
+2025-05-13 18:08:11 - main.py - __main__ - INFO - ** Started Processing file: NETSCAN_COtest.zip **
+2025-05-13 18:08:11 - folder_operations.py - root - INFO - Processing folder: C:\File\NETSCAN\temp
+2025-05-13 18:08:11 - folder_operations.py - root - INFO - Processing folder: C:\File\NETSCAN\process
+2025-05-13 18:08:11 - main.py - __main__ - INFO - File extraction started from input path
+2025-05-13 18:08:11 - folder_operations.py - common_func.folder_operations - INFO - Extracting ZIP file: C:\File\NETSCAN\input\NETSCAN_COtest.zip to C:\File\NETSCAN\input\NETSCAN_COtest
+2025-05-13 18:08:11 - folder_operations.py - common_func.folder_operations - INFO - Extracted C:\File\NETSCAN\input\NETSCAN_COtest.zip to C:\File\NETSCAN\input\NETSCAN_COtest
+2025-05-13 18:08:11 - folder_operations.py - common_func.folder_operations - INFO - Completed extraction of C:\File\NETSCAN\input\NETSCAN_COtest.zip
+2025-05-13 18:08:11 - extract_input.py - extract_input - INFO - Looping through folders in base directory: C:\File\NETSCAN\input\NETSCAN_COtest
+2025-05-13 18:08:11 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\co_p001a166AddInfo.pdf
+2025-05-13 18:08:11 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\co_p001a166AddInfo.pdf
+2025-05-13 18:08:11 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Initializing Engine...
+2025-05-13 18:08:11 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Engine initialized
+2025-05-13 18:08:11 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Loading predefined profile...
+2025-05-13 18:08:11 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Loading image...
+2025-05-13 18:08:12 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Process...
+2025-05-13 18:08:19 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Saving results...
+2025-05-13 18:08:19 - abby_pdf_to_docx.py - converter_modules.abbyy_integration.abby_pdf_to_docx - INFO - Deinitializing Engine...
+2025-05-13 18:08:19 - extract_input.py - extract_input - INFO - Converted PDF to DOCX: C:\File\NETSCAN\process\co_p001a166AddInfo.docx
+2025-05-13 18:08:19 - co_region_main.py - core_components.jurisdictions.co.co_region_main - INFO - Starting main_co_files function with input: C:\File\NETSCAN\process\co_p001a166AddInfo.docx
+2025-05-13 18:08:19 - co_region_main.py - core_components.jurisdictions.co.co_region_main - INFO - header check : False
+2025-05-13 18:08:19 - co_region_main.py - core_components.jurisdictions.co.co_region_main - INFO - read document
+2025-05-13 18:08:19 - co_region_main.py - core_components.jurisdictions.co.co_region_main - INFO - number of images identified 1
+2025-05-13 18:08:19 - co_region_main.py - core_components.jurisdictions.co.co_region_main - INFO - Number of images extracted: 1
+2025-05-13 18:08:19 - word_paragraph_operations.py - root - INFO - Removed hyperlinks and saved as C:\File\NETSCAN\process\co_p001a166AddInfo.docx
+2025-05-13 18:08:19 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\co_p001a166AddInfo.docx
+2025-05-13 18:08:19 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:08:19 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:08:19 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:08:19 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:08:19 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:08:19 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:08:22 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:08:29 - _generate.py - comtypes.client._generate - INFO - Could not import comtypes.gen._00020905_0000_0000_C000_000000000046_0_8_7: Typelib different than module
+2025-05-13 18:08:29 - _generate.py - comtypes.client._generate - INFO - # Generating comtypes.gen._00020905_0000_0000_C000_000000000046_0_8_7
+2025-05-13 18:08:43 - _generate.py - comtypes.client._generate - INFO - # Generating comtypes.gen.Word
+2025-05-13 18:08:43 - _generate.py - comtypes.client._generate - INFO - Could not import comtypes.gen._2DF8D04C_5BFA_101B_BDE5_00AA0044DE52_0_2_8: Typelib different than module
+2025-05-13 18:08:43 - _generate.py - comtypes.client._generate - INFO - # Generating comtypes.gen._2DF8D04C_5BFA_101B_BDE5_00AA0044DE52_0_2_8
+2025-05-13 18:08:51 - _generate.py - comtypes.client._generate - INFO - # Generating comtypes.gen.Office
+2025-05-13 18:08:58 - word_bullets_operations.py - root - INFO - Replaced 148 bullets in co_p001a166AddInfo.docx
+2025-05-13 18:08:58 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in co_p001a166AddInfo.docx
+2025-05-13 18:08:58 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in co_p001a166AddInfo.docx
+2025-05-13 18:08:58 - word_paragraph_operations.py - root - INFO - Total paragraphs: 47
+2025-05-13 18:08:58 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:08:58 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\co_p001a166AddInfo.docx
+2025-05-13 18:08:58 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\co_p001a166AddInfo.doc
+2025-05-13 18:08:58 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\co_p001a166AddInfo.pdf
+2025-05-13 18:09:01 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00392_co_a.html
+2025-05-13 18:09:01 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00392_co_a.html
+2025-05-13 18:09:01 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00392_co_a.html: utf-8 (Confidence: 0.938125)
+2025-05-13 18:09:01 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2024-00392_co_a.html. Processing all relevant elements.
+2025-05-13 18:09:01 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2024-00392
+2025-05-13 18:09:01 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00392_co_a_1.html
+2025-05-13 18:09:01 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00392_co_a_1.html: utf-8 (Confidence: 0.938125)
+2025-05-13 18:09:01 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00392_co_a.html -> C:\File\NETSCAN\process\2024-00392_co_a.docx
+2025-05-13 18:09:01 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00392_co_a_1.html
+2025-05-13 18:09:01 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2024-00392_co_a.docx
+2025-05-13 18:09:01 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2024-00392_co_a.docx
+2025-05-13 18:09:01 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:09:01 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:09:01 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:09:01 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:09:04 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:09:11 - word_bullets_operations.py - root - INFO - Replaced 83 bullets in 2024-00392_co_a.docx
+2025-05-13 18:09:14 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2024-00392_co_a.docx
+2025-05-13 18:09:14 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2024-00392_co_a.docx
+2025-05-13 18:09:14 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:09:14 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:09:14 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2024-00392_co_a.docx
+2025-05-13 18:09:14 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2024-00392_co_a.doc
+2025-05-13 18:09:14 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00392_co_a.html
+2025-05-13 18:09:17 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00393_co_a.html
+2025-05-13 18:09:17 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00393_co_a.html
+2025-05-13 18:09:17 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00393_co_a.html: ascii (Confidence: 1.0)
+2025-05-13 18:09:17 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2024-00393_co_a.html. Processing all relevant elements.
+2025-05-13 18:09:17 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2024-00393
+2025-05-13 18:09:17 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00393_co_a_1.html
+2025-05-13 18:09:17 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00393_co_a_1.html: ascii (Confidence: 1.0)
+2025-05-13 18:09:17 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00393_co_a.html -> C:\File\NETSCAN\process\2024-00393_co_a.docx
+2025-05-13 18:09:17 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00393_co_a_1.html
+2025-05-13 18:09:17 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2024-00393_co_a.docx
+2025-05-13 18:09:17 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2024-00393_co_a.docx
+2025-05-13 18:09:17 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:09:17 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:09:17 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:09:17 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:09:20 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:09:28 - word_bullets_operations.py - root - INFO - Replaced 86 bullets in 2024-00393_co_a.docx
+2025-05-13 18:09:32 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2024-00393_co_a.docx
+2025-05-13 18:09:32 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2024-00393_co_a.docx
+2025-05-13 18:09:32 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:09:32 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:09:32 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2024-00393_co_a.docx
+2025-05-13 18:09:32 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2024-00393_co_a.doc
+2025-05-13 18:09:32 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00393_co_a.html
+2025-05-13 18:09:36 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00394_co_a.html
+2025-05-13 18:09:36 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00394_co_a.html
+2025-05-13 18:09:36 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00394_co_a.html: ascii (Confidence: 1.0)
+2025-05-13 18:09:36 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2024-00394_co_a.html. Processing all relevant elements.
+2025-05-13 18:09:36 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2024-00394
+2025-05-13 18:09:36 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00394_co_a_1.html
+2025-05-13 18:09:36 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00394_co_a_1.html: ascii (Confidence: 1.0)
+2025-05-13 18:09:36 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00394_co_a.html -> C:\File\NETSCAN\process\2024-00394_co_a.docx
+2025-05-13 18:09:36 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00394_co_a_1.html
+2025-05-13 18:09:36 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2024-00394_co_a.docx
+2025-05-13 18:09:36 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2024-00394_co_a.docx
+2025-05-13 18:09:36 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:09:36 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:09:36 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:09:36 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:09:39 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:09:47 - word_bullets_operations.py - root - INFO - Replaced 86 bullets in 2024-00394_co_a.docx
+2025-05-13 18:09:50 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2024-00394_co_a.docx
+2025-05-13 18:09:50 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2024-00394_co_a.docx
+2025-05-13 18:09:50 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:09:50 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:09:50 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2024-00394_co_a.docx
+2025-05-13 18:09:50 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2024-00394_co_a.doc
+2025-05-13 18:09:50 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00394_co_a.html
+2025-05-13 18:09:53 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00395_co_a.html
+2025-05-13 18:09:53 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00395_co_a.html
+2025-05-13 18:09:53 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00395_co_a.html: ascii (Confidence: 1.0)
+2025-05-13 18:09:53 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2024-00395_co_a.html. Processing all relevant elements.
+2025-05-13 18:09:53 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2024-00395
+2025-05-13 18:09:53 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00395_co_a_1.html
+2025-05-13 18:09:53 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00395_co_a_1.html: ascii (Confidence: 1.0)
+2025-05-13 18:09:53 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00395_co_a.html -> C:\File\NETSCAN\process\2024-00395_co_a.docx
+2025-05-13 18:09:53 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00395_co_a_1.html
+2025-05-13 18:09:53 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2024-00395_co_a.docx
+2025-05-13 18:09:53 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2024-00395_co_a.docx
+2025-05-13 18:09:53 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:09:53 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:09:53 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:09:53 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:09:56 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:10:05 - word_bullets_operations.py - root - INFO - Replaced 86 bullets in 2024-00395_co_a.docx
+2025-05-13 18:10:08 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2024-00395_co_a.docx
+2025-05-13 18:10:08 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2024-00395_co_a.docx
+2025-05-13 18:10:08 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:10:08 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:10:08 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2024-00395_co_a.docx
+2025-05-13 18:10:08 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2024-00395_co_a.doc
+2025-05-13 18:10:08 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00395_co_a.html
+2025-05-13 18:10:11 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00396_co_a.html
+2025-05-13 18:10:11 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00396_co_a.html
+2025-05-13 18:10:11 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00396_co_a.html: ascii (Confidence: 1.0)
+2025-05-13 18:10:11 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2024-00396_co_a.html. Processing all relevant elements.
+2025-05-13 18:10:11 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2024-00396
+2025-05-13 18:10:11 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00396_co_a_1.html
+2025-05-13 18:10:11 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00396_co_a_1.html: ascii (Confidence: 1.0)
+2025-05-13 18:10:11 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00396_co_a.html -> C:\File\NETSCAN\process\2024-00396_co_a.docx
+2025-05-13 18:10:11 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00396_co_a_1.html
+2025-05-13 18:10:11 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2024-00396_co_a.docx
+2025-05-13 18:10:11 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2024-00396_co_a.docx
+2025-05-13 18:10:11 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:10:11 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:10:11 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:10:11 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:10:14 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:10:21 - word_bullets_operations.py - root - INFO - Replaced 86 bullets in 2024-00396_co_a.docx
+2025-05-13 18:10:24 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2024-00396_co_a.docx
+2025-05-13 18:10:24 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2024-00396_co_a.docx
+2025-05-13 18:10:24 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:10:24 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:10:24 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2024-00396_co_a.docx
+2025-05-13 18:10:24 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2024-00396_co_a.doc
+2025-05-13 18:10:24 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00396_co_a.html
+2025-05-13 18:10:27 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00525_co_a.html
+2025-05-13 18:10:27 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00525_co_a.html
+2025-05-13 18:10:27 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00525_co_a.html: utf-8 (Confidence: 0.99)
+2025-05-13 18:10:27 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2024-00525_co_a.html. Processing all relevant elements.
+2025-05-13 18:10:27 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2024-00525
+2025-05-13 18:10:27 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00525_co_a_1.html
+2025-05-13 18:10:27 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00525_co_a_1.html: utf-8 (Confidence: 0.99)
+2025-05-13 18:10:27 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00525_co_a.html -> C:\File\NETSCAN\process\2024-00525_co_a.docx
+2025-05-13 18:10:27 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00525_co_a_1.html
+2025-05-13 18:10:27 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2024-00525_co_a.docx
+2025-05-13 18:10:27 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2024-00525_co_a.docx
+2025-05-13 18:10:27 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:10:27 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:10:27 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:10:27 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:10:30 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:10:37 - word_bullets_operations.py - root - INFO - Replaced 92 bullets in 2024-00525_co_a.docx
+2025-05-13 18:10:40 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2024-00525_co_a.docx
+2025-05-13 18:10:40 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2024-00525_co_a.docx
+2025-05-13 18:10:40 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:10:40 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:10:40 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2024-00525_co_a.docx
+2025-05-13 18:10:40 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2024-00525_co_a.doc
+2025-05-13 18:10:40 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00525_co_a.html
+2025-05-13 18:10:43 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00553_co_a.html
+2025-05-13 18:10:43 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00553_co_a.html
+2025-05-13 18:10:43 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00553_co_a.html: utf-8 (Confidence: 0.7525)
+2025-05-13 18:10:43 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2024-00553_co_a.html. Processing all relevant elements.
+2025-05-13 18:10:43 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2024-00553
+2025-05-13 18:10:43 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00553_co_a_1.html
+2025-05-13 18:10:43 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00553_co_a_1.html: utf-8 (Confidence: 0.7525)
+2025-05-13 18:10:43 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00553_co_a.html -> C:\File\NETSCAN\process\2024-00553_co_a.docx
+2025-05-13 18:10:43 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00553_co_a_1.html
+2025-05-13 18:10:43 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2024-00553_co_a.docx
+2025-05-13 18:10:43 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2024-00553_co_a.docx
+2025-05-13 18:10:43 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:10:43 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:10:43 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:10:43 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:10:46 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:10:53 - word_bullets_operations.py - root - INFO - Replaced 77 bullets in 2024-00553_co_a.docx
+2025-05-13 18:10:56 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2024-00553_co_a.docx
+2025-05-13 18:10:56 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2024-00553_co_a.docx
+2025-05-13 18:10:56 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:10:56 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:10:56 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2024-00553_co_a.docx
+2025-05-13 18:10:56 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2024-00553_co_a.doc
+2025-05-13 18:10:56 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00553_co_a.html
+2025-05-13 18:10:59 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00556_co_a.html
+2025-05-13 18:10:59 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00556_co_a.html
+2025-05-13 18:10:59 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00556_co_a.html: ascii (Confidence: 1.0)
+2025-05-13 18:10:59 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2024-00556_co_a.html. Processing all relevant elements.
+2025-05-13 18:10:59 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2024-00556
+2025-05-13 18:10:59 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00556_co_a_1.html
+2025-05-13 18:10:59 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00556_co_a_1.html: ascii (Confidence: 1.0)
+2025-05-13 18:10:59 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00556_co_a.html -> C:\File\NETSCAN\process\2024-00556_co_a.docx
+2025-05-13 18:10:59 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00556_co_a_1.html
+2025-05-13 18:10:59 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2024-00556_co_a.docx
+2025-05-13 18:10:59 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2024-00556_co_a.docx
+2025-05-13 18:10:59 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:10:59 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:10:59 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:10:59 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:11:02 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:11:08 - word_bullets_operations.py - root - INFO - Replaced 80 bullets in 2024-00556_co_a.docx
+2025-05-13 18:11:11 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2024-00556_co_a.docx
+2025-05-13 18:11:11 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2024-00556_co_a.docx
+2025-05-13 18:11:11 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:11:11 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:11:11 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2024-00556_co_a.docx
+2025-05-13 18:11:11 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2024-00556_co_a.doc
+2025-05-13 18:11:11 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00556_co_a.html
+2025-05-13 18:11:14 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00569_co_a.html
+2025-05-13 18:11:14 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00569_co_a.html
+2025-05-13 18:11:14 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00569_co_a.html: utf-8 (Confidence: 0.7525)
+2025-05-13 18:11:14 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2024-00569_co_a.html. Processing all relevant elements.
+2025-05-13 18:11:14 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2024-00569
+2025-05-13 18:11:14 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00569_co_a_1.html
+2025-05-13 18:11:14 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00569_co_a_1.html: utf-8 (Confidence: 0.7525)
+2025-05-13 18:11:14 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00569_co_a.html -> C:\File\NETSCAN\process\2024-00569_co_a.docx
+2025-05-13 18:11:14 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00569_co_a_1.html
+2025-05-13 18:11:14 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2024-00569_co_a.docx
+2025-05-13 18:11:14 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2024-00569_co_a.docx
+2025-05-13 18:11:14 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:11:14 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:11:14 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:11:14 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:11:17 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:11:25 - word_bullets_operations.py - root - INFO - Replaced 89 bullets in 2024-00569_co_a.docx
+2025-05-13 18:11:28 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2024-00569_co_a.docx
+2025-05-13 18:11:28 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2024-00569_co_a.docx
+2025-05-13 18:11:28 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:11:28 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:11:28 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2024-00569_co_a.docx
+2025-05-13 18:11:28 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2024-00569_co_a.doc
+2025-05-13 18:11:28 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00569_co_a.html
+2025-05-13 18:11:31 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00574_co_a.html
+2025-05-13 18:11:31 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00574_co_a.html
+2025-05-13 18:11:31 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00574_co_a.html: ascii (Confidence: 1.0)
+2025-05-13 18:11:31 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2024-00574_co_a.html. Processing all relevant elements.
+2025-05-13 18:11:31 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2024-00574
+2025-05-13 18:11:31 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00574_co_a_1.html
+2025-05-13 18:11:31 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00574_co_a_1.html: ascii (Confidence: 1.0)
+2025-05-13 18:11:31 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00574_co_a.html -> C:\File\NETSCAN\process\2024-00574_co_a.docx
+2025-05-13 18:11:31 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00574_co_a_1.html
+2025-05-13 18:11:31 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2024-00574_co_a.docx
+2025-05-13 18:11:31 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2024-00574_co_a.docx
+2025-05-13 18:11:31 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:11:31 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:11:31 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:11:31 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:11:34 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:11:41 - word_bullets_operations.py - root - INFO - Replaced 92 bullets in 2024-00574_co_a.docx
+2025-05-13 18:11:43 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2024-00574_co_a.docx
+2025-05-13 18:11:43 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2024-00574_co_a.docx
+2025-05-13 18:11:43 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:11:43 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:11:43 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2024-00574_co_a.docx
+2025-05-13 18:11:43 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2024-00574_co_a.doc
+2025-05-13 18:11:43 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00574_co_a.html
+2025-05-13 18:11:46 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00575_co_a.html
+2025-05-13 18:11:46 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00575_co_a.html
+2025-05-13 18:11:47 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00575_co_a.html: utf-8 (Confidence: 0.938125)
+2025-05-13 18:11:47 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2024-00575_co_a.html. Processing all relevant elements.
+2025-05-13 18:11:47 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2024-00575
+2025-05-13 18:11:47 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00575_co_a_1.html
+2025-05-13 18:11:47 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00575_co_a_1.html: utf-8 (Confidence: 0.938125)
+2025-05-13 18:11:47 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00575_co_a.html -> C:\File\NETSCAN\process\2024-00575_co_a.docx
+2025-05-13 18:11:47 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00575_co_a_1.html
+2025-05-13 18:11:47 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2024-00575_co_a.docx
+2025-05-13 18:11:47 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2024-00575_co_a.docx
+2025-05-13 18:11:47 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:11:47 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:11:47 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:11:47 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:11:50 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:11:57 - word_bullets_operations.py - root - INFO - Replaced 95 bullets in 2024-00575_co_a.docx
+2025-05-13 18:11:59 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2024-00575_co_a.docx
+2025-05-13 18:11:59 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2024-00575_co_a.docx
+2025-05-13 18:11:59 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:11:59 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:11:59 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2024-00575_co_a.docx
+2025-05-13 18:11:59 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2024-00575_co_a.doc
+2025-05-13 18:11:59 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00575_co_a.html
+2025-05-13 18:12:03 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00591_co_t.html
+2025-05-13 18:12:03 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00591_co_t.html
+2025-05-13 18:12:03 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00591_co_t.html: ascii (Confidence: 1.0)
+2025-05-13 18:12:03 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2024-00591_co_t.html. Processing all relevant elements.
+2025-05-13 18:12:03 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2024-00591
+2025-05-13 18:12:03 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00591_co_t_1.html
+2025-05-13 18:12:03 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00591_co_t_1.html: ascii (Confidence: 1.0)
+2025-05-13 18:12:03 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00591_co_t.html -> C:\File\NETSCAN\process\2024-00591_co_t.docx
+2025-05-13 18:12:03 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00591_co_t_1.html
+2025-05-13 18:12:03 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2024-00591_co_t.docx
+2025-05-13 18:12:03 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2024-00591_co_t.docx
+2025-05-13 18:12:03 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:12:03 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:12:03 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:12:03 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:12:03 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:12:06 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:12:13 - word_bullets_operations.py - root - INFO - Replaced 81 bullets in 2024-00591_co_t.docx
+2025-05-13 18:12:15 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2024-00591_co_t.docx
+2025-05-13 18:12:15 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2024-00591_co_t.docx
+2025-05-13 18:12:15 - word_paragraph_operations.py - root - INFO - Total paragraphs: 6
+2025-05-13 18:12:15 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:12:16 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2024-00591_co_t.docx
+2025-05-13 18:12:16 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2024-00591_co_t.doc
+2025-05-13 18:12:16 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00591_co_t.html
+2025-05-13 18:12:19 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00635_co_e.html
+2025-05-13 18:12:19 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00635_co_e.html
+2025-05-13 18:12:19 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00635_co_e.html: utf-8 (Confidence: 0.7525)
+2025-05-13 18:12:19 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2024-00635_co_e.html. Processing all relevant elements.
+2025-05-13 18:12:19 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2024-00635
+2025-05-13 18:12:19 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00635_co_e_1.html
+2025-05-13 18:12:19 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00635_co_e_1.html: utf-8 (Confidence: 0.7525)
+2025-05-13 18:12:19 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00635_co_e.html -> C:\File\NETSCAN\process\2024-00635_co_e.docx
+2025-05-13 18:12:19 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00635_co_e_1.html
+2025-05-13 18:12:19 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2024-00635_co_e.docx
+2025-05-13 18:12:19 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2024-00635_co_e.docx
+2025-05-13 18:12:19 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:12:19 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:12:19 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:12:19 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:12:22 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:12:30 - word_bullets_operations.py - root - INFO - Replaced 89 bullets in 2024-00635_co_e.docx
+2025-05-13 18:12:33 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2024-00635_co_e.docx
+2025-05-13 18:12:33 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2024-00635_co_e.docx
+2025-05-13 18:12:33 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:12:34 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:12:34 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2024-00635_co_e.docx
+2025-05-13 18:12:34 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2024-00635_co_e.doc
+2025-05-13 18:12:34 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00635_co_e.html
+2025-05-13 18:12:37 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00638_co_e.html
+2025-05-13 18:12:37 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00638_co_e.html
+2025-05-13 18:12:37 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00638_co_e.html: ascii (Confidence: 1.0)
+2025-05-13 18:12:37 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2024-00638_co_e.html. Processing all relevant elements.
+2025-05-13 18:12:37 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2024-00638
+2025-05-13 18:12:37 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00638_co_e_1.html
+2025-05-13 18:12:37 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00638_co_e_1.html: ascii (Confidence: 1.0)
+2025-05-13 18:12:37 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00638_co_e.html -> C:\File\NETSCAN\process\2024-00638_co_e.docx
+2025-05-13 18:12:37 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00638_co_e_1.html
+2025-05-13 18:12:37 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2024-00638_co_e.docx
+2025-05-13 18:12:37 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2024-00638_co_e.docx
+2025-05-13 18:12:37 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:12:37 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:12:37 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:12:37 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:12:40 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:12:47 - word_bullets_operations.py - root - INFO - Replaced 77 bullets in 2024-00638_co_e.docx
+2025-05-13 18:12:50 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2024-00638_co_e.docx
+2025-05-13 18:12:50 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2024-00638_co_e.docx
+2025-05-13 18:12:50 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:12:50 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:12:50 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2024-00638_co_e.docx
+2025-05-13 18:12:50 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2024-00638_co_e.doc
+2025-05-13 18:12:50 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00638_co_e.html
+2025-05-13 18:12:53 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00639_co_e.html
+2025-05-13 18:12:53 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00639_co_e.html
+2025-05-13 18:12:53 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00639_co_e.html: utf-8 (Confidence: 0.99)
+2025-05-13 18:12:53 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2024-00639_co_e.html. Processing all relevant elements.
+2025-05-13 18:12:53 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2024-00639
+2025-05-13 18:12:53 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00639_co_e_1.html
+2025-05-13 18:12:53 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2024-00639_co_e_1.html: utf-8 (Confidence: 0.99)
+2025-05-13 18:12:53 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00639_co_e.html -> C:\File\NETSCAN\process\2024-00639_co_e.docx
+2025-05-13 18:12:53 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00639_co_e_1.html
+2025-05-13 18:12:53 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2024-00639_co_e.docx
+2025-05-13 18:12:53 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2024-00639_co_e.docx
+2025-05-13 18:12:53 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:12:53 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:12:53 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:12:53 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:12:56 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:13:05 - word_bullets_operations.py - root - INFO - Replaced 83 bullets in 2024-00639_co_e.docx
+2025-05-13 18:13:07 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2024-00639_co_e.docx
+2025-05-13 18:13:07 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2024-00639_co_e.docx
+2025-05-13 18:13:08 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:13:08 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:13:08 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2024-00639_co_e.docx
+2025-05-13 18:13:08 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2024-00639_co_e.doc
+2025-05-13 18:13:08 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2024-00639_co_e.html
+2025-05-13 18:13:11 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00006_coac.html
+2025-05-13 18:13:11 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00006_coac.html
+2025-05-13 18:13:11 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00006_coac.html: ascii (Confidence: 1.0)
+2025-05-13 18:13:11 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2025-00006_coac.html. Processing all relevant elements.
+2025-05-13 18:13:11 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2025-00006
+2025-05-13 18:13:11 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00006_coac_1.html
+2025-05-13 18:13:11 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00006_coac_1.html: ascii (Confidence: 1.0)
+2025-05-13 18:13:11 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00006_coac.html -> C:\File\NETSCAN\process\2025-00006_coac.docx
+2025-05-13 18:13:11 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00006_coac_1.html
+2025-05-13 18:13:11 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2025-00006_coac.docx
+2025-05-13 18:13:11 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2025-00006_coac.docx
+2025-05-13 18:13:11 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:13:11 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:13:11 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:13:14 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:13:21 - word_bullets_operations.py - root - INFO - Replaced 31 bullets in 2025-00006_coac.docx
+2025-05-13 18:13:24 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2025-00006_coac.docx
+2025-05-13 18:13:24 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2025-00006_coac.docx
+2025-05-13 18:13:24 - word_paragraph_operations.py - root - INFO - Total paragraphs: 4
+2025-05-13 18:13:24 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:13:24 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2025-00006_coac.docx
+2025-05-13 18:13:24 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2025-00006_coac.doc
+2025-05-13 18:13:24 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00006_coac.html
+2025-05-13 18:13:27 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00008_co_p.html
+2025-05-13 18:13:27 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00008_co_p.html
+2025-05-13 18:13:27 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00008_co_p.html: utf-8 (Confidence: 0.7525)
+2025-05-13 18:13:27 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2025-00008_co_p.html. Processing all relevant elements.
+2025-05-13 18:13:27 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2025-00008
+2025-05-13 18:13:27 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00008_co_p_1.html
+2025-05-13 18:13:27 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00008_co_p_1.html: utf-8 (Confidence: 0.7525)
+2025-05-13 18:13:27 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00008_co_p.html -> C:\File\NETSCAN\process\2025-00008_co_p.docx
+2025-05-13 18:13:27 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00008_co_p_1.html
+2025-05-13 18:13:27 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2025-00008_co_p.docx
+2025-05-13 18:13:27 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2025-00008_co_p.docx
+2025-05-13 18:13:27 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:13:27 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:13:27 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:13:27 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:13:30 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:13:38 - word_bullets_operations.py - root - INFO - Replaced 71 bullets in 2025-00008_co_p.docx
+2025-05-13 18:13:41 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2025-00008_co_p.docx
+2025-05-13 18:13:41 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2025-00008_co_p.docx
+2025-05-13 18:13:41 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:13:41 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:13:41 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2025-00008_co_p.docx
+2025-05-13 18:13:41 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2025-00008_co_p.doc
+2025-05-13 18:13:41 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00008_co_p.html
+2025-05-13 18:13:44 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00009_co_p.html
+2025-05-13 18:13:44 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00009_co_p.html
+2025-05-13 18:13:44 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00009_co_p.html: ascii (Confidence: 1.0)
+2025-05-13 18:13:44 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2025-00009_co_p.html. Processing all relevant elements.
+2025-05-13 18:13:44 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2025-00009
+2025-05-13 18:13:44 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00009_co_p_1.html
+2025-05-13 18:13:44 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00009_co_p_1.html: ascii (Confidence: 1.0)
+2025-05-13 18:13:44 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00009_co_p.html -> C:\File\NETSCAN\process\2025-00009_co_p.docx
+2025-05-13 18:13:44 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00009_co_p_1.html
+2025-05-13 18:13:44 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2025-00009_co_p.docx
+2025-05-13 18:13:44 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2025-00009_co_p.docx
+2025-05-13 18:13:44 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:13:44 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:13:44 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:13:44 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:13:47 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:13:55 - word_bullets_operations.py - root - INFO - Replaced 71 bullets in 2025-00009_co_p.docx
+2025-05-13 18:13:58 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2025-00009_co_p.docx
+2025-05-13 18:13:58 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2025-00009_co_p.docx
+2025-05-13 18:13:58 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:13:58 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:13:58 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2025-00009_co_p.docx
+2025-05-13 18:13:58 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2025-00009_co_p.doc
+2025-05-13 18:13:58 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00009_co_p.html
+2025-05-13 18:14:01 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00011_co_p.html
+2025-05-13 18:14:01 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00011_co_p.html
+2025-05-13 18:14:01 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00011_co_p.html: ascii (Confidence: 1.0)
+2025-05-13 18:14:01 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2025-00011_co_p.html. Processing all relevant elements.
+2025-05-13 18:14:01 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2025-00011
+2025-05-13 18:14:01 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00011_co_p_1.html
+2025-05-13 18:14:01 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00011_co_p_1.html: ascii (Confidence: 1.0)
+2025-05-13 18:14:01 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00011_co_p.html -> C:\File\NETSCAN\process\2025-00011_co_p.docx
+2025-05-13 18:14:01 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00011_co_p_1.html
+2025-05-13 18:14:01 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2025-00011_co_p.docx
+2025-05-13 18:14:01 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2025-00011_co_p.docx
+2025-05-13 18:14:01 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:14:01 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:14:01 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:14:01 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:14:04 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:14:13 - word_bullets_operations.py - root - INFO - Replaced 74 bullets in 2025-00011_co_p.docx
+2025-05-13 18:14:16 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2025-00011_co_p.docx
+2025-05-13 18:14:16 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2025-00011_co_p.docx
+2025-05-13 18:14:16 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:14:16 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:14:16 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2025-00011_co_p.docx
+2025-05-13 18:14:16 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2025-00011_co_p.doc
+2025-05-13 18:14:16 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00011_co_p.html
+2025-05-13 18:14:19 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00012_coae.html
+2025-05-13 18:14:19 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00012_coae.html
+2025-05-13 18:14:19 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00012_coae.html: ascii (Confidence: 1.0)
+2025-05-13 18:14:19 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2025-00012_coae.html. Processing all relevant elements.
+2025-05-13 18:14:19 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2025-00012
+2025-05-13 18:14:19 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00012_coae_1.html
+2025-05-13 18:14:19 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00012_coae_1.html: ascii (Confidence: 1.0)
+2025-05-13 18:14:19 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00012_coae.html -> C:\File\NETSCAN\process\2025-00012_coae.docx
+2025-05-13 18:14:19 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00012_coae_1.html
+2025-05-13 18:14:19 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2025-00012_coae.docx
+2025-05-13 18:14:19 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2025-00012_coae.docx
+2025-05-13 18:14:19 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:14:19 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:14:19 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:14:19 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:14:22 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:14:30 - word_bullets_operations.py - root - INFO - Replaced 68 bullets in 2025-00012_coae.docx
+2025-05-13 18:14:32 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2025-00012_coae.docx
+2025-05-13 18:14:32 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2025-00012_coae.docx
+2025-05-13 18:14:32 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:14:32 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:14:32 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2025-00012_coae.docx
+2025-05-13 18:14:32 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2025-00012_coae.doc
+2025-05-13 18:14:32 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00012_coae.html
+2025-05-13 18:14:36 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00014_co_c.html
+2025-05-13 18:14:36 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00014_co_c.html
+2025-05-13 18:14:36 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00014_co_c.html: ascii (Confidence: 1.0)
+2025-05-13 18:14:36 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2025-00014_co_c.html. Processing all relevant elements.
+2025-05-13 18:14:36 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2025-00014
+2025-05-13 18:14:36 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00014_co_c_1.html
+2025-05-13 18:14:36 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00014_co_c_1.html: ascii (Confidence: 1.0)
+2025-05-13 18:14:36 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00014_co_c.html -> C:\File\NETSCAN\process\2025-00014_co_c.docx
+2025-05-13 18:14:36 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00014_co_c_1.html
+2025-05-13 18:14:36 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2025-00014_co_c.docx
+2025-05-13 18:14:36 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2025-00014_co_c.docx
+2025-05-13 18:14:36 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:14:36 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:14:36 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:14:36 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:14:39 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:14:45 - word_bullets_operations.py - root - INFO - Replaced 47 bullets in 2025-00014_co_c.docx
+2025-05-13 18:14:48 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2025-00014_co_c.docx
+2025-05-13 18:14:48 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2025-00014_co_c.docx
+2025-05-13 18:14:48 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:14:48 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:14:48 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2025-00014_co_c.docx
+2025-05-13 18:14:48 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2025-00014_co_c.doc
+2025-05-13 18:14:48 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00014_co_c.html
+2025-05-13 18:14:51 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00020_co_p.html
+2025-05-13 18:14:51 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00020_co_p.html
+2025-05-13 18:14:51 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00020_co_p.html: ascii (Confidence: 1.0)
+2025-05-13 18:14:51 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2025-00020_co_p.html. Processing all relevant elements.
+2025-05-13 18:14:51 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2025-00020
+2025-05-13 18:14:51 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00020_co_p_1.html
+2025-05-13 18:14:51 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00020_co_p_1.html: ascii (Confidence: 1.0)
+2025-05-13 18:14:52 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00020_co_p.html -> C:\File\NETSCAN\process\2025-00020_co_p.docx
+2025-05-13 18:14:52 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00020_co_p_1.html
+2025-05-13 18:14:52 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2025-00020_co_p.docx
+2025-05-13 18:14:52 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2025-00020_co_p.docx
+2025-05-13 18:14:52 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:14:52 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:14:52 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:14:52 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:14:55 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:15:02 - word_bullets_operations.py - root - INFO - Replaced 68 bullets in 2025-00020_co_p.docx
+2025-05-13 18:15:04 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2025-00020_co_p.docx
+2025-05-13 18:15:04 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2025-00020_co_p.docx
+2025-05-13 18:15:05 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:15:05 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:15:05 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2025-00020_co_p.docx
+2025-05-13 18:15:05 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2025-00020_co_p.doc
+2025-05-13 18:15:05 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00020_co_p.html
+2025-05-13 18:15:08 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00021_co_p.html
+2025-05-13 18:15:08 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00021_co_p.html
+2025-05-13 18:15:08 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00021_co_p.html: utf-8 (Confidence: 0.7525)
+2025-05-13 18:15:08 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2025-00021_co_p.html. Processing all relevant elements.
+2025-05-13 18:15:08 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2025-00021
+2025-05-13 18:15:08 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00021_co_p_1.html
+2025-05-13 18:15:08 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00021_co_p_1.html: utf-8 (Confidence: 0.7525)
+2025-05-13 18:15:08 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00021_co_p.html -> C:\File\NETSCAN\process\2025-00021_co_p.docx
+2025-05-13 18:15:08 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00021_co_p_1.html
+2025-05-13 18:15:08 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2025-00021_co_p.docx
+2025-05-13 18:15:08 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2025-00021_co_p.docx
+2025-05-13 18:15:08 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:15:08 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:15:08 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:15:08 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:15:11 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:15:18 - word_bullets_operations.py - root - INFO - Replaced 71 bullets in 2025-00021_co_p.docx
+2025-05-13 18:15:21 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2025-00021_co_p.docx
+2025-05-13 18:15:21 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2025-00021_co_p.docx
+2025-05-13 18:15:21 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:15:21 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:15:21 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2025-00021_co_p.docx
+2025-05-13 18:15:21 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2025-00021_co_p.doc
+2025-05-13 18:15:21 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00021_co_p.html
+2025-05-13 18:15:24 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00022_co_p.html
+2025-05-13 18:15:24 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00022_co_p.html
+2025-05-13 18:15:24 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00022_co_p.html: utf-8 (Confidence: 0.7525)
+2025-05-13 18:15:24 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2025-00022_co_p.html. Processing all relevant elements.
+2025-05-13 18:15:24 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2025-00022
+2025-05-13 18:15:24 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00022_co_p_1.html
+2025-05-13 18:15:24 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00022_co_p_1.html: utf-8 (Confidence: 0.7525)
+2025-05-13 18:15:25 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00022_co_p.html -> C:\File\NETSCAN\process\2025-00022_co_p.docx
+2025-05-13 18:15:25 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00022_co_p_1.html
+2025-05-13 18:15:25 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2025-00022_co_p.docx
+2025-05-13 18:15:25 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2025-00022_co_p.docx
+2025-05-13 18:15:25 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:15:25 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:15:25 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:15:25 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:15:28 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:15:35 - word_bullets_operations.py - root - INFO - Replaced 71 bullets in 2025-00022_co_p.docx
+2025-05-13 18:15:38 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2025-00022_co_p.docx
+2025-05-13 18:15:38 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2025-00022_co_p.docx
+2025-05-13 18:15:38 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:15:38 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:15:38 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2025-00022_co_p.docx
+2025-05-13 18:15:38 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2025-00022_co_p.doc
+2025-05-13 18:15:38 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00022_co_p.html
+2025-05-13 18:15:41 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00023_co_p.html
+2025-05-13 18:15:41 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00023_co_p.html
+2025-05-13 18:15:41 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00023_co_p.html: utf-8 (Confidence: 0.7525)
+2025-05-13 18:15:41 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2025-00023_co_p.html. Processing all relevant elements.
+2025-05-13 18:15:41 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2025-00023
+2025-05-13 18:15:41 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00023_co_p_1.html
+2025-05-13 18:15:41 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00023_co_p_1.html: utf-8 (Confidence: 0.7525)
+2025-05-13 18:15:42 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00023_co_p.html -> C:\File\NETSCAN\process\2025-00023_co_p.docx
+2025-05-13 18:15:42 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00023_co_p_1.html
+2025-05-13 18:15:42 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2025-00023_co_p.docx
+2025-05-13 18:15:42 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2025-00023_co_p.docx
+2025-05-13 18:15:42 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:15:42 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:15:42 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:15:42 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:15:45 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:15:52 - word_bullets_operations.py - root - INFO - Replaced 71 bullets in 2025-00023_co_p.docx
+2025-05-13 18:15:55 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2025-00023_co_p.docx
+2025-05-13 18:15:55 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2025-00023_co_p.docx
+2025-05-13 18:15:55 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:15:55 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:15:55 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2025-00023_co_p.docx
+2025-05-13 18:15:55 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2025-00023_co_p.doc
+2025-05-13 18:15:55 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00023_co_p.html
+2025-05-13 18:15:58 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00024_co_p.html
+2025-05-13 18:15:58 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00024_co_p.html
+2025-05-13 18:15:58 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00024_co_p.html: utf-8 (Confidence: 0.7525)
+2025-05-13 18:15:58 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2025-00024_co_p.html. Processing all relevant elements.
+2025-05-13 18:15:58 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2025-00024
+2025-05-13 18:15:58 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00024_co_p_1.html
+2025-05-13 18:15:58 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00024_co_p_1.html: utf-8 (Confidence: 0.7525)
+2025-05-13 18:15:59 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00024_co_p.html -> C:\File\NETSCAN\process\2025-00024_co_p.docx
+2025-05-13 18:15:59 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00024_co_p_1.html
+2025-05-13 18:15:59 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2025-00024_co_p.docx
+2025-05-13 18:15:59 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2025-00024_co_p.docx
+2025-05-13 18:15:59 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:15:59 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:15:59 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:15:59 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:16:02 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:16:10 - word_bullets_operations.py - root - INFO - Replaced 71 bullets in 2025-00024_co_p.docx
+2025-05-13 18:16:12 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2025-00024_co_p.docx
+2025-05-13 18:16:12 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2025-00024_co_p.docx
+2025-05-13 18:16:12 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:16:12 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:16:12 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2025-00024_co_p.docx
+2025-05-13 18:16:13 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2025-00024_co_p.doc
+2025-05-13 18:16:13 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00024_co_p.html
+2025-05-13 18:16:16 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00025_co_p.html
+2025-05-13 18:16:16 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00025_co_p.html
+2025-05-13 18:16:16 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00025_co_p.html: utf-8 (Confidence: 0.7525)
+2025-05-13 18:16:16 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2025-00025_co_p.html. Processing all relevant elements.
+2025-05-13 18:16:16 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2025-00025
+2025-05-13 18:16:16 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00025_co_p_1.html
+2025-05-13 18:16:16 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00025_co_p_1.html: utf-8 (Confidence: 0.7525)
+2025-05-13 18:16:16 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00025_co_p.html -> C:\File\NETSCAN\process\2025-00025_co_p.docx
+2025-05-13 18:16:16 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00025_co_p_1.html
+2025-05-13 18:16:16 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2025-00025_co_p.docx
+2025-05-13 18:16:16 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2025-00025_co_p.docx
+2025-05-13 18:16:16 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:16:16 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:16:16 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:16:16 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:16:19 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:16:28 - word_bullets_operations.py - root - INFO - Replaced 71 bullets in 2025-00025_co_p.docx
+2025-05-13 18:16:31 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2025-00025_co_p.docx
+2025-05-13 18:16:31 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2025-00025_co_p.docx
+2025-05-13 18:16:31 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:16:31 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:16:31 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2025-00025_co_p.docx
+2025-05-13 18:16:31 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2025-00025_co_p.doc
+2025-05-13 18:16:31 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00025_co_p.html
+2025-05-13 18:16:34 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00026_co_p.html
+2025-05-13 18:16:34 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00026_co_p.html
+2025-05-13 18:16:34 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00026_co_p.html: utf-8 (Confidence: 0.7525)
+2025-05-13 18:16:34 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2025-00026_co_p.html. Processing all relevant elements.
+2025-05-13 18:16:34 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2025-00026
+2025-05-13 18:16:34 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00026_co_p_1.html
+2025-05-13 18:16:34 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00026_co_p_1.html: utf-8 (Confidence: 0.7525)
+2025-05-13 18:16:35 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00026_co_p.html -> C:\File\NETSCAN\process\2025-00026_co_p.docx
+2025-05-13 18:16:35 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00026_co_p_1.html
+2025-05-13 18:16:35 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2025-00026_co_p.docx
+2025-05-13 18:16:35 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2025-00026_co_p.docx
+2025-05-13 18:16:35 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:16:35 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:16:35 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:16:35 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:16:38 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:16:45 - word_bullets_operations.py - root - INFO - Replaced 71 bullets in 2025-00026_co_p.docx
+2025-05-13 18:16:48 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2025-00026_co_p.docx
+2025-05-13 18:16:48 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2025-00026_co_p.docx
+2025-05-13 18:16:48 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:16:48 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:16:48 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2025-00026_co_p.docx
+2025-05-13 18:16:48 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2025-00026_co_p.doc
+2025-05-13 18:16:48 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00026_co_p.html
+2025-05-13 18:16:51 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00027_co_p.html
+2025-05-13 18:16:51 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00027_co_p.html
+2025-05-13 18:16:51 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00027_co_p.html: utf-8 (Confidence: 0.7525)
+2025-05-13 18:16:51 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2025-00027_co_p.html. Processing all relevant elements.
+2025-05-13 18:16:51 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2025-00027
+2025-05-13 18:16:51 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00027_co_p_1.html
+2025-05-13 18:16:52 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00027_co_p_1.html: utf-8 (Confidence: 0.7525)
+2025-05-13 18:16:52 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00027_co_p.html -> C:\File\NETSCAN\process\2025-00027_co_p.docx
+2025-05-13 18:16:52 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00027_co_p_1.html
+2025-05-13 18:16:52 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2025-00027_co_p.docx
+2025-05-13 18:16:52 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2025-00027_co_p.docx
+2025-05-13 18:16:52 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:16:52 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:16:52 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:16:52 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:16:55 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:17:02 - word_bullets_operations.py - root - INFO - Replaced 71 bullets in 2025-00027_co_p.docx
+2025-05-13 18:17:05 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2025-00027_co_p.docx
+2025-05-13 18:17:05 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2025-00027_co_p.docx
+2025-05-13 18:17:05 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:17:05 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:17:05 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2025-00027_co_p.docx
+2025-05-13 18:17:05 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2025-00027_co_p.doc
+2025-05-13 18:17:05 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00027_co_p.html
+2025-05-13 18:17:08 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00028_co_p.html
+2025-05-13 18:17:08 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00028_co_p.html
+2025-05-13 18:17:08 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00028_co_p.html: utf-8 (Confidence: 0.99)
+2025-05-13 18:17:08 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2025-00028_co_p.html. Processing all relevant elements.
+2025-05-13 18:17:08 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2025-00028
+2025-05-13 18:17:08 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00028_co_p_1.html
+2025-05-13 18:17:08 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00028_co_p_1.html: utf-8 (Confidence: 0.99)
+2025-05-13 18:17:08 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00028_co_p.html -> C:\File\NETSCAN\process\2025-00028_co_p.docx
+2025-05-13 18:17:08 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00028_co_p_1.html
+2025-05-13 18:17:08 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2025-00028_co_p.docx
+2025-05-13 18:17:08 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2025-00028_co_p.docx
+2025-05-13 18:17:08 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:17:08 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:17:08 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:17:08 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:17:11 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:17:19 - word_bullets_operations.py - root - INFO - Replaced 71 bullets in 2025-00028_co_p.docx
+2025-05-13 18:17:22 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2025-00028_co_p.docx
+2025-05-13 18:17:22 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2025-00028_co_p.docx
+2025-05-13 18:17:22 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:17:22 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:17:22 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2025-00028_co_p.docx
+2025-05-13 18:17:22 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2025-00028_co_p.doc
+2025-05-13 18:17:22 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00028_co_p.html
+2025-05-13 18:17:25 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00029_co_p.html
+2025-05-13 18:17:25 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00029_co_p.html
+2025-05-13 18:17:25 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00029_co_p.html: utf-8 (Confidence: 0.938125)
+2025-05-13 18:17:25 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2025-00029_co_p.html. Processing all relevant elements.
+2025-05-13 18:17:25 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2025-00029
+2025-05-13 18:17:25 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00029_co_p_1.html
+2025-05-13 18:17:25 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00029_co_p_1.html: utf-8 (Confidence: 0.938125)
+2025-05-13 18:17:25 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00029_co_p.html -> C:\File\NETSCAN\process\2025-00029_co_p.docx
+2025-05-13 18:17:25 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00029_co_p_1.html
+2025-05-13 18:17:25 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2025-00029_co_p.docx
+2025-05-13 18:17:25 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2025-00029_co_p.docx
+2025-05-13 18:17:25 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:17:25 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:17:25 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:17:25 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:17:28 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:17:37 - word_bullets_operations.py - root - INFO - Replaced 71 bullets in 2025-00029_co_p.docx
+2025-05-13 18:17:39 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2025-00029_co_p.docx
+2025-05-13 18:17:39 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2025-00029_co_p.docx
+2025-05-13 18:17:39 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:17:39 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:17:39 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2025-00029_co_p.docx
+2025-05-13 18:17:39 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2025-00029_co_p.doc
+2025-05-13 18:17:39 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00029_co_p.html
+2025-05-13 18:17:42 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00030_co_p.html
+2025-05-13 18:17:42 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00030_co_p.html
+2025-05-13 18:17:42 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00030_co_p.html: Windows-1252 (Confidence: 0.73)
+2025-05-13 18:17:42 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2025-00030_co_p.html. Processing all relevant elements.
+2025-05-13 18:17:43 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2025-00030
+2025-05-13 18:17:43 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00030_co_p_1.html
+2025-05-13 18:17:43 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00030_co_p_1.html: utf-8 (Confidence: 0.87625)
+2025-05-13 18:17:43 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00030_co_p.html -> C:\File\NETSCAN\process\2025-00030_co_p.docx
+2025-05-13 18:17:43 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00030_co_p_1.html
+2025-05-13 18:17:43 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2025-00030_co_p.docx
+2025-05-13 18:17:43 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2025-00030_co_p.docx
+2025-05-13 18:17:43 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:17:43 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:17:43 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:17:43 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:17:46 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:17:54 - word_bullets_operations.py - root - INFO - Replaced 71 bullets in 2025-00030_co_p.docx
+2025-05-13 18:17:56 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2025-00030_co_p.docx
+2025-05-13 18:17:56 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2025-00030_co_p.docx
+2025-05-13 18:17:57 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:17:57 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:17:57 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2025-00030_co_p.docx
+2025-05-13 18:17:57 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2025-00030_co_p.doc
+2025-05-13 18:17:57 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00030_co_p.html
+2025-05-13 18:18:00 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00031_co_p.html
+2025-05-13 18:18:00 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00031_co_p.html
+2025-05-13 18:18:00 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00031_co_p.html: Windows-1252 (Confidence: 0.73)
+2025-05-13 18:18:00 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2025-00031_co_p.html. Processing all relevant elements.
+2025-05-13 18:18:00 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2025-00031
+2025-05-13 18:18:00 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00031_co_p_1.html
+2025-05-13 18:18:00 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00031_co_p_1.html: utf-8 (Confidence: 0.87625)
+2025-05-13 18:18:00 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00031_co_p.html -> C:\File\NETSCAN\process\2025-00031_co_p.docx
+2025-05-13 18:18:00 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00031_co_p_1.html
+2025-05-13 18:18:00 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2025-00031_co_p.docx
+2025-05-13 18:18:00 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2025-00031_co_p.docx
+2025-05-13 18:18:00 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:18:00 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:18:00 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:18:00 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:18:03 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:18:11 - word_bullets_operations.py - root - INFO - Replaced 71 bullets in 2025-00031_co_p.docx
+2025-05-13 18:18:14 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2025-00031_co_p.docx
+2025-05-13 18:18:14 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2025-00031_co_p.docx
+2025-05-13 18:18:14 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:18:14 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:18:14 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2025-00031_co_p.docx
+2025-05-13 18:18:14 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2025-00031_co_p.doc
+2025-05-13 18:18:14 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00031_co_p.html
+2025-05-13 18:18:17 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00032_co_p.html
+2025-05-13 18:18:17 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00032_co_p.html
+2025-05-13 18:18:17 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00032_co_p.html: utf-8 (Confidence: 0.99)
+2025-05-13 18:18:17 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2025-00032_co_p.html. Processing all relevant elements.
+2025-05-13 18:18:17 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2025-00032
+2025-05-13 18:18:17 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00032_co_p_1.html
+2025-05-13 18:18:17 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00032_co_p_1.html: utf-8 (Confidence: 0.99)
+2025-05-13 18:18:17 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00032_co_p.html -> C:\File\NETSCAN\process\2025-00032_co_p.docx
+2025-05-13 18:18:17 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00032_co_p_1.html
+2025-05-13 18:18:17 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2025-00032_co_p.docx
+2025-05-13 18:18:17 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2025-00032_co_p.docx
+2025-05-13 18:18:17 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:18:17 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:18:17 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:18:17 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:18:20 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:18:26 - word_bullets_operations.py - root - INFO - Replaced 71 bullets in 2025-00032_co_p.docx
+2025-05-13 18:18:28 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2025-00032_co_p.docx
+2025-05-13 18:18:28 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2025-00032_co_p.docx
+2025-05-13 18:18:28 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:18:28 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:18:28 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2025-00032_co_p.docx
+2025-05-13 18:18:28 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2025-00032_co_p.doc
+2025-05-13 18:18:28 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00032_co_p.html
+2025-05-13 18:18:31 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00033_co_e.html
+2025-05-13 18:18:31 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00033_co_e.html
+2025-05-13 18:18:31 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00033_co_e.html: ascii (Confidence: 1.0)
+2025-05-13 18:18:31 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2025-00033_co_e.html. Processing all relevant elements.
+2025-05-13 18:18:31 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2025-00033
+2025-05-13 18:18:31 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00033_co_e_1.html
+2025-05-13 18:18:31 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00033_co_e_1.html: ascii (Confidence: 1.0)
+2025-05-13 18:18:31 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00033_co_e.html -> C:\File\NETSCAN\process\2025-00033_co_e.docx
+2025-05-13 18:18:31 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00033_co_e_1.html
+2025-05-13 18:18:31 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2025-00033_co_e.docx
+2025-05-13 18:18:31 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2025-00033_co_e.docx
+2025-05-13 18:18:31 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:18:31 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:18:31 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:18:31 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:18:34 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:18:40 - word_bullets_operations.py - root - INFO - Replaced 68 bullets in 2025-00033_co_e.docx
+2025-05-13 18:18:42 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2025-00033_co_e.docx
+2025-05-13 18:18:42 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2025-00033_co_e.docx
+2025-05-13 18:18:42 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:18:42 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:18:42 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2025-00033_co_e.docx
+2025-05-13 18:18:42 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2025-00033_co_e.doc
+2025-05-13 18:18:42 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00033_co_e.html
+2025-05-13 18:18:45 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00034_coac.html
+2025-05-13 18:18:45 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00034_coac.html
+2025-05-13 18:18:45 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00034_coac.html: ascii (Confidence: 1.0)
+2025-05-13 18:18:45 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\2025-00034_coac.html. Processing all relevant elements.
+2025-05-13 18:18:45 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Details of Tracking Number 2025-00034
+2025-05-13 18:18:45 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00034_coac_1.html
+2025-05-13 18:18:45 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\2025-00034_coac_1.html: ascii (Confidence: 1.0)
+2025-05-13 18:18:45 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00034_coac.html -> C:\File\NETSCAN\process\2025-00034_coac.docx
+2025-05-13 18:18:45 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00034_coac_1.html
+2025-05-13 18:18:45 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\2025-00034_coac.docx
+2025-05-13 18:18:45 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\2025-00034_coac.docx
+2025-05-13 18:18:45 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:18:45 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:18:45 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:18:48 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:18:54 - word_bullets_operations.py - root - INFO - Replaced 31 bullets in 2025-00034_coac.docx
+2025-05-13 18:18:57 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 2025-00034_coac.docx
+2025-05-13 18:18:57 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 2025-00034_coac.docx
+2025-05-13 18:18:57 - word_paragraph_operations.py - root - INFO - Total paragraphs: 4
+2025-05-13 18:18:57 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:18:57 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\2025-00034_coac.docx
+2025-05-13 18:18:57 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\2025-00034_coac.doc
+2025-05-13 18:18:57 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\2025-00034_coac.html
+2025-05-13 18:19:00 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\24-E08.html
+2025-05-13 18:19:00 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\24-E08.html
+2025-05-13 18:19:01 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\24-E08.html: TIS-620 (Confidence: 0.99)
+2025-05-13 18:19:01 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\24-E08.html. Processing all relevant elements.
+2025-05-13 18:19:01 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Deadline For Public Comment
+2025-05-13 18:19:01 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Rule Details
+2025-05-13 18:19:01 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Hearing Information
+2025-05-13 18:19:01 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Contact Information
+2025-05-13 18:19:01 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Keyword Information
+2025-05-13 18:19:01 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\24-E08_1.html
+2025-05-13 18:19:01 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\24-E08_1.html: utf-8 (Confidence: 0.938125)
+2025-05-13 18:19:01 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\24-E08.html -> C:\File\NETSCAN\process\24-E08.docx
+2025-05-13 18:19:01 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\24-E08_1.html
+2025-05-13 18:19:01 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\24-E08.docx
+2025-05-13 18:19:01 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\24-E08.docx
+2025-05-13 18:19:01 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:19:01 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:19:01 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:19:01 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:19:01 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:19:01 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:19:01 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:19:04 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:19:12 - word_bullets_operations.py - root - INFO - Replaced 186 bullets in 24-E08.docx
+2025-05-13 18:19:14 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 24-E08.docx
+2025-05-13 18:19:14 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 24-E08.docx
+2025-05-13 18:19:14 - word_paragraph_operations.py - root - INFO - Total paragraphs: 9
+2025-05-13 18:19:14 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:19:14 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\24-E08.docx
+2025-05-13 18:19:14 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\24-E08.doc
+2025-05-13 18:19:14 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\24-E08.html
+2025-05-13 18:19:17 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\24P050.html
+2025-05-13 18:19:17 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\24P050.html
+2025-05-13 18:19:17 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\24P050.html: utf-8 (Confidence: 0.99)
+2025-05-13 18:19:17 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' not found in any table of C:\File\NETSCAN\input\NETSCAN_COtest\24P050.html. Processing all relevant elements.
+2025-05-13 18:19:17 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Deadline For Public Comment
+2025-05-13 18:19:17 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Rule Details
+2025-05-13 18:19:17 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Hearing Information
+2025-05-13 18:19:17 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Contact Information
+2025-05-13 18:19:17 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Processed <h2> element: Keyword Information
+2025-05-13 18:19:17 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\24P050_1.html
+2025-05-13 18:19:17 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\24P050_1.html: utf-8 (Confidence: 0.99)
+2025-05-13 18:19:18 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\24P050.html -> C:\File\NETSCAN\process\24P050.docx
+2025-05-13 18:19:18 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\24P050_1.html
+2025-05-13 18:19:18 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\24P050.docx
+2025-05-13 18:19:18 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\24P050.docx
+2025-05-13 18:19:18 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:19:18 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:19:18 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:19:18 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:19:18 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:19:18 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:19:18 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:19:20 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:19:29 - word_bullets_operations.py - root - INFO - Replaced 210 bullets in 24P050.docx
+2025-05-13 18:19:31 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in 24P050.docx
+2025-05-13 18:19:32 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in 24P050.docx
+2025-05-13 18:19:32 - word_paragraph_operations.py - root - INFO - Total paragraphs: 9
+2025-05-13 18:19:32 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:19:32 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\24P050.docx
+2025-05-13 18:19:32 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\24P050.doc
+2025-05-13 18:19:32 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\24P050.html
+2025-05-13 18:19:35 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\co_p001a183.html
+2025-05-13 18:19:35 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\co_p001a183.html
+2025-05-13 18:19:35 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\co_p001a183.html: Windows-1252 (Confidence: 0.73)
+2025-05-13 18:19:35 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' found in table index 2 of C:\File\NETSCAN\input\NETSCAN_COtest\co_p001a183.html
+2025-05-13 18:19:35 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted texts: CCR details
+2025-05-13 18:19:35 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\co_p001a183_1.html
+2025-05-13 18:19:35 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\co_p001a183_1.html: utf-8 (Confidence: 0.87625)
+2025-05-13 18:19:35 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\co_p001a183.html -> C:\File\NETSCAN\process\co_p001a183.docx
+2025-05-13 18:19:35 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\co_p001a183_1.html
+2025-05-13 18:19:35 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\co_p001a183.docx
+2025-05-13 18:19:35 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\co_p001a183.docx
+2025-05-13 18:19:35 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:19:35 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:19:35 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:19:35 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:19:38 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:19:45 - word_bullets_operations.py - root - INFO - Replaced 71 bullets in co_p001a183.docx
+2025-05-13 18:19:47 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in co_p001a183.docx
+2025-05-13 18:19:47 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in co_p001a183.docx
+2025-05-13 18:19:47 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:19:47 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:19:47 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\co_p001a183.docx
+2025-05-13 18:19:47 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\co_p001a183.doc
+2025-05-13 18:19:47 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\co_p001a183.html
+2025-05-13 18:19:51 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\co_p002a183.html
+2025-05-13 18:19:51 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\co_p002a183.html
+2025-05-13 18:19:51 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\co_p002a183.html: ascii (Confidence: 1.0)
+2025-05-13 18:19:51 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' found in table index 2 of C:\File\NETSCAN\input\NETSCAN_COtest\co_p002a183.html
+2025-05-13 18:19:51 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted texts: CCR details
+2025-05-13 18:19:51 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\co_p002a183_1.html
+2025-05-13 18:19:51 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\co_p002a183_1.html: ascii (Confidence: 1.0)
+2025-05-13 18:19:51 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\co_p002a183.html -> C:\File\NETSCAN\process\co_p002a183.docx
+2025-05-13 18:19:51 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\co_p002a183_1.html
+2025-05-13 18:19:51 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\co_p002a183.docx
+2025-05-13 18:19:51 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\co_p002a183.docx
+2025-05-13 18:19:51 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:19:51 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:19:51 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:19:51 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:19:53 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:20:00 - word_bullets_operations.py - root - INFO - Replaced 71 bullets in co_p002a183.docx
+2025-05-13 18:20:03 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in co_p002a183.docx
+2025-05-13 18:20:03 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in co_p002a183.docx
+2025-05-13 18:20:03 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:20:03 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:20:03 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\co_p002a183.docx
+2025-05-13 18:20:03 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\co_p002a183.doc
+2025-05-13 18:20:03 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\co_p002a183.html
+2025-05-13 18:20:06 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\co_p003a183.html
+2025-05-13 18:20:06 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\co_p003a183.html
+2025-05-13 18:20:06 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\co_p003a183.html: Windows-1252 (Confidence: 0.73)
+2025-05-13 18:20:06 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' found in table index 2 of C:\File\NETSCAN\input\NETSCAN_COtest\co_p003a183.html
+2025-05-13 18:20:06 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted texts: CCR details
+2025-05-13 18:20:06 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\co_p003a183_1.html
+2025-05-13 18:20:06 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\co_p003a183_1.html: utf-8 (Confidence: 0.99)
+2025-05-13 18:20:06 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\co_p003a183.html -> C:\File\NETSCAN\process\co_p003a183.docx
+2025-05-13 18:20:06 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\co_p003a183_1.html
+2025-05-13 18:20:06 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\co_p003a183.docx
+2025-05-13 18:20:06 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\co_p003a183.docx
+2025-05-13 18:20:06 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:20:06 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:20:06 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:20:06 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:20:09 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:20:15 - word_bullets_operations.py - root - INFO - Replaced 71 bullets in co_p003a183.docx
+2025-05-13 18:20:18 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in co_p003a183.docx
+2025-05-13 18:20:18 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in co_p003a183.docx
+2025-05-13 18:20:18 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:20:18 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:20:18 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\co_p003a183.docx
+2025-05-13 18:20:18 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\co_p003a183.doc
+2025-05-13 18:20:18 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\co_p003a183.html
+2025-05-13 18:20:22 - extract_input.py - extract_input - INFO - Found file: C:\File\NETSCAN\input\NETSCAN_COtest\co_p004a183.html
+2025-05-13 18:20:22 - extract_input.py - extract_input - INFO - Processing file: C:\File\NETSCAN\input\NETSCAN_COtest\co_p004a183.html
+2025-05-13 18:20:22 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\co_p004a183.html: Windows-1252 (Confidence: 0.73)
+2025-05-13 18:20:22 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - 'Details of Tracking Number' found in table index 2 of C:\File\NETSCAN\input\NETSCAN_COtest\co_p004a183.html
+2025-05-13 18:20:22 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted texts: CCR details
+2025-05-13 18:20:22 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Extracted content written to temporary HTML file: C:\File\NETSCAN\input\NETSCAN_COtest\co_p004a183_1.html
+2025-05-13 18:20:22 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Detected encoding for C:\File\NETSCAN\input\NETSCAN_COtest\co_p004a183_1.html: utf-8 (Confidence: 0.99)
+2025-05-13 18:20:22 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Converted: C:\File\NETSCAN\input\NETSCAN_COtest\co_p004a183.html -> C:\File\NETSCAN\process\co_p004a183.docx
+2025-05-13 18:20:22 - html2docx.py - converter_modules.html2docx_integration.html2docx - INFO - Removed temporary file: C:\File\NETSCAN\input\NETSCAN_COtest\co_p004a183_1.html
+2025-05-13 18:20:22 - extract_input.py - extract_input - INFO - Converted HTML to DOCX: C:\File\NETSCAN\process\co_p004a183.docx
+2025-05-13 18:20:22 - generic_instructions.py - core_components.generic_instruction.generic_instructions - INFO -  Formatted document and saved: C:\File\NETSCAN\process\co_p004a183.docx
+2025-05-13 18:20:22 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:20:22 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:20:22 - word_table_operations.py - root - INFO - added border to table
+2025-05-13 18:20:22 - word_table_operations.py - root - INFO - replaced image with tag non-displayable image text
+2025-05-13 18:20:25 - word_table_operations.py - root - INFO - Removed line numbering
+2025-05-13 18:20:32 - word_bullets_operations.py - root - INFO - Replaced 71 bullets in co_p004a183.docx
+2025-05-13 18:20:35 - word_bullets_operations.py - root - INFO - Set Bullet follow character to space in co_p004a183.docx
+2025-05-13 18:20:35 - word_bullets_operations.py - root - INFO - Set Bullet font to Times New Roman size 12 in co_p004a183.docx
+2025-05-13 18:20:35 - word_paragraph_operations.py - root - INFO - Total paragraphs: 5
+2025-05-13 18:20:35 - word_paragraph_operations.py - root - INFO - Successfully processed document
+2025-05-13 18:20:35 - word_paragraph_operations.py - root - INFO - Margins adjusted and selective first-line indentation applied to the document: C:\File\NETSCAN\process\co_p004a183.docx
+2025-05-13 18:20:35 - extract_input.py - extract_input - INFO - Moved processed file to: C:\File\NETSCAN\Output\NETSCAN_COtest\co_p004a183.doc
+2025-05-13 18:20:35 - extract_input.py - extract_input - INFO - Original file deleted: C:\File\NETSCAN\input\NETSCAN_COtest\co_p004a183.html
+2025-05-13 18:20:38 - main.py - __main__ - INFO - File extraction completed
+2025-05-13 18:20:38 - main.py - __main__ - INFO - File NETSCAN_COtest.zip moved to archive: C:\File\NETSCAN\Archive\MAY_13_2025
